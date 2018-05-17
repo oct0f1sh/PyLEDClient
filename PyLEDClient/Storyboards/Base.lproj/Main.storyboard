@@ -65,6 +65,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="backgroundRoundedView" destination="Fsq-Te-3L5" id="Kk9-rT-3Y8"/>
+                                            <segue destination="UD6-He-gBP" kind="show" id="s6e-F0-huX"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -93,6 +94,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="972" y="33.251231527093594"/>
+        </scene>
+        <!--DeviceDetail-->
+        <scene sceneID="j7U-LH-R53">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DeviceDetail" id="UD6-He-gBP" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cJ0-RI-VPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2163" y="34"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Geo-Nh-7pO">

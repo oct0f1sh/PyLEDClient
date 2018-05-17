@@ -1,0 +1,6 @@
+framework module Pods_PyLEDClient {
+  umbrella header "Pods-PyLEDClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

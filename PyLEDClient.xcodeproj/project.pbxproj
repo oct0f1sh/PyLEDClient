@@ -14,9 +14,13 @@
 		AE8DBF1720ACDCEB004602C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DBF1520ACDCEB004602C3 /* LaunchScreen.storyboard */; };
 		AE8DBF2420ACE0BB004602C3 /* DeviceCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF2320ACE0BB004602C3 /* DeviceCellView.swift */; };
 		AE8DBF2720ACE442004602C3 /* UIView+RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF2620ACE442004602C3 /* UIView+RoundedCorners.swift */; };
+		AE8DBF2920ACEC76004602C3 /* DeviceDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DBF2820ACEC76004602C3 /* DeviceDetail.storyboard */; };
+		AE8DBF2B20ACECB7004602C3 /* DeviceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF2A20ACECB7004602C3 /* DeviceDetailViewController.swift */; };
+		CF16D09AAF4CC8CF5AE8C711 /* Pods_PyLEDClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF612B7E67BB1F1764F1F75B /* Pods_PyLEDClient.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73E75D7EA56D5D61388DF4BC /* Pods-PyLEDClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyLEDClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-PyLEDClient/Pods-PyLEDClient.release.xcconfig"; sourceTree = "<group>"; };
 		AE8DBF0920ACDCE1004602C3 /* PyLEDClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PyLEDClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8DBF0C20ACDCE1004602C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE8DBF0E20ACDCE1004602C3 /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +30,10 @@
 		AE8DBF1820ACDCEB004602C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE8DBF2320ACE0BB004602C3 /* DeviceCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceCellView.swift; sourceTree = "<group>"; };
 		AE8DBF2620ACE442004602C3 /* UIView+RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RoundedCorners.swift"; sourceTree = "<group>"; };
+		AE8DBF2820ACEC76004602C3 /* DeviceDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeviceDetail.storyboard; sourceTree = "<group>"; };
+		AE8DBF2A20ACECB7004602C3 /* DeviceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailViewController.swift; sourceTree = "<group>"; };
+		D2951A141BC68F4458D882C5 /* Pods-PyLEDClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyLEDClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PyLEDClient/Pods-PyLEDClient.debug.xcconfig"; sourceTree = "<group>"; };
+		EF612B7E67BB1F1764F1F75B /* Pods_PyLEDClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PyLEDClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF16D09AAF4CC8CF5AE8C711 /* Pods_PyLEDClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5BC5E77A52671EF97B09A7C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2951A141BC68F4458D882C5 /* Pods-PyLEDClient.debug.xcconfig */,
+				73E75D7EA56D5D61388DF4BC /* Pods-PyLEDClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		887467BC7BBAD207E61DAC48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF612B7E67BB1F1764F1F75B /* Pods_PyLEDClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE8DBF0020ACDCE1004602C3 = {
 			isa = PBXGroup;
 			children = (
 				AE8DBF0B20ACDCE1004602C3 /* PyLEDClient */,
 				AE8DBF0A20ACDCE1004602C3 /* Products */,
+				5BC5E77A52671EF97B09A7C6 /* Pods */,
+				887467BC7BBAD207E61DAC48 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				AE8DBF0E20ACDCE1004602C3 /* DevicesViewController.swift */,
+				AE8DBF2A20ACECB7004602C3 /* DeviceDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -81,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				AE8DBF1020ACDCE1004602C3 /* Main.storyboard */,
+				AE8DBF2820ACEC76004602C3 /* DeviceDetail.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -125,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE8DBF1B20ACDCEB004602C3 /* Build configuration list for PBXNativeTarget "PyLEDClient" */;
 			buildPhases = (
+				349A67B22BFFCB76897C957D /* [CP] Check Pods Manifest.lock */,
 				AE8DBF0520ACDCE1004602C3 /* Sources */,
 				AE8DBF0620ACDCE1004602C3 /* Frameworks */,
 				AE8DBF0720ACDCE1004602C3 /* Resources */,
+				1A59A43071637B1403983145 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE8DBF1720ACDCEB004602C3 /* LaunchScreen.storyboard in Resources */,
+				AE8DBF2920ACEC76004602C3 /* DeviceDetail.storyboard in Resources */,
 				AE8DBF1420ACDCEB004602C3 /* Assets.xcassets in Resources */,
 				AE8DBF1220ACDCE1004602C3 /* Main.storyboard in Resources */,
 			);
@@ -184,12 +217,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A59A43071637B1403983145 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PyLEDClient/Pods-PyLEDClient-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyTimer/SwiftyTimer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaMQTT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTimer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PyLEDClient/Pods-PyLEDClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		349A67B22BFFCB76897C957D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PyLEDClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE8DBF0520ACDCE1004602C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AE8DBF2420ACE0BB004602C3 /* DeviceCellView.swift in Sources */,
+				AE8DBF2B20ACECB7004602C3 /* DeviceDetailViewController.swift in Sources */,
 				AE8DBF0F20ACDCE1004602C3 /* DevicesViewController.swift in Sources */,
 				AE8DBF0D20ACDCE1004602C3 /* AppDelegate.swift in Sources */,
 				AE8DBF2720ACE442004602C3 /* UIView+RoundedCorners.swift in Sources */,
@@ -334,6 +411,7 @@
 		};
 		AE8DBF1C20ACDCEB004602C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2951A141BC68F4458D882C5 /* Pods-PyLEDClient.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -352,6 +430,7 @@
 		};
 		AE8DBF1D20ACDCEB004602C3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E75D7EA56D5D61388DF4BC /* Pods-PyLEDClient.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
