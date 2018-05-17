@@ -12,6 +12,6 @@ import UIKit
 class DeviceDetailViewController: UIViewController {
     override func viewDidLoad() {
         self.navigationController?.navigationItem.largeTitleDisplayMode = .never
-        self.title = "Device"
+//        self.title = "Device"
     }
 }

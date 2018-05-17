@@ -33,7 +33,7 @@
                                                     <rect key="frame" x="5" y="5" width="365" height="75"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Device Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thi-Lk-7sG">
-                                                            <rect key="frame" x="25" y="23.333333333333329" width="135.66666666666666" height="29"/>
+                                                            <rect key="frame" x="25" y="23.333333333333329" width="265" height="29"/>
                                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="24"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -50,6 +50,7 @@
                                                     <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
                                                     <constraints>
                                                         <constraint firstItem="Thi-Lk-7sG" firstAttribute="leading" secondItem="Fsq-Te-3L5" secondAttribute="leading" constant="25" id="6Z6-2N-b1q"/>
+                                                        <constraint firstItem="Ug5-NS-ZDk" firstAttribute="leading" secondItem="Thi-Lk-7sG" secondAttribute="trailing" constant="10" id="WHD-zO-hKk"/>
                                                         <constraint firstAttribute="trailing" secondItem="Ug5-NS-ZDk" secondAttribute="trailing" constant="30" id="nFG-gR-fHd"/>
                                                         <constraint firstItem="Ug5-NS-ZDk" firstAttribute="centerY" secondItem="Fsq-Te-3L5" secondAttribute="centerY" id="o8S-x2-UhS"/>
                                                         <constraint firstItem="Thi-Lk-7sG" firstAttribute="centerY" secondItem="Fsq-Te-3L5" secondAttribute="centerY" id="syo-xN-xGI"/>
@@ -65,6 +66,8 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="backgroundRoundedView" destination="Fsq-Te-3L5" id="Kk9-rT-3Y8"/>
+                                            <outlet property="deviceNameLabel" destination="Thi-Lk-7sG" id="YPC-uR-wZw"/>
+                                            <outlet property="deviceStatusView" destination="Ug5-NS-ZDk" id="Dai-Ew-gLb"/>
                                             <segue destination="UD6-He-gBP" kind="show" id="s6e-F0-huX"/>
                                         </connections>
                                     </tableViewCell>

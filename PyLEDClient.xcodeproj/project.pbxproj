@@ -16,6 +16,7 @@
 		AE8DBF2720ACE442004602C3 /* UIView+RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF2620ACE442004602C3 /* UIView+RoundedCorners.swift */; };
 		AE8DBF2920ACEC76004602C3 /* DeviceDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DBF2820ACEC76004602C3 /* DeviceDetail.storyboard */; };
 		AE8DBF2B20ACECB7004602C3 /* DeviceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF2A20ACECB7004602C3 /* DeviceDetailViewController.swift */; };
+		AE8DBF2D20AD0259004602C3 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF2C20AD0259004602C3 /* Device.swift */; };
 		CF16D09AAF4CC8CF5AE8C711 /* Pods_PyLEDClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF612B7E67BB1F1764F1F75B /* Pods_PyLEDClient.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		AE8DBF2620ACE442004602C3 /* UIView+RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RoundedCorners.swift"; sourceTree = "<group>"; };
 		AE8DBF2820ACEC76004602C3 /* DeviceDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeviceDetail.storyboard; sourceTree = "<group>"; };
 		AE8DBF2A20ACECB7004602C3 /* DeviceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDetailViewController.swift; sourceTree = "<group>"; };
+		AE8DBF2C20AD0259004602C3 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		D2951A141BC68F4458D882C5 /* Pods-PyLEDClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyLEDClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PyLEDClient/Pods-PyLEDClient.debug.xcconfig"; sourceTree = "<group>"; };
 		EF612B7E67BB1F1764F1F75B /* Pods_PyLEDClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PyLEDClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -136,6 +138,7 @@
 		AE8DBF2220ACDD40004602C3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AE8DBF2C20AD0259004602C3 /* Device.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,12 +231,14 @@
 				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyTimer/SwiftyTimer.framework",
+				"${BUILT_PRODUCTS_DIR}/Valet/Valet.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaMQTT.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyTimer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Valet.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -268,6 +273,7 @@
 				AE8DBF2420ACE0BB004602C3 /* DeviceCellView.swift in Sources */,
 				AE8DBF2B20ACECB7004602C3 /* DeviceDetailViewController.swift in Sources */,
 				AE8DBF0F20ACDCE1004602C3 /* DevicesViewController.swift in Sources */,
+				AE8DBF2D20AD0259004602C3 /* Device.swift in Sources */,
 				AE8DBF0D20ACDCE1004602C3 /* AppDelegate.swift in Sources */,
 				AE8DBF2720ACE442004602C3 /* UIView+RoundedCorners.swift in Sources */,
 			);

@@ -1,24 +1,28 @@
 PODS:
-  - CocoaAsyncSocket (7.6.2)
-  - CocoaMQTT (1.1.1):
+  - CocoaAsyncSocket (7.6.3)
+  - CocoaMQTT (1.1.2):
     - CocoaAsyncSocket (~> 7.6.1)
     - SwiftyTimer (~> 2.0.0)
   - SwiftyTimer (2.0.0)
+  - Valet (3.1.3)
 
 DEPENDENCIES:
   - CocoaMQTT
+  - Valet
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CocoaAsyncSocket
     - CocoaMQTT
     - SwiftyTimer
+    - Valet
 
 SPEC CHECKSUMS:
-  CocoaAsyncSocket: 3541e024f48c54b251638ef72d51dd42808de932
-  CocoaMQTT: 3a01a51d534e0419b950d32236d4da389f074de8
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  CocoaMQTT: d33ab3cd4e329f9f1cfbb62e25306a318a606616
   SwiftyTimer: 2efd74b060d69ad4f1496baf5bbedbe132125fcf
+  Valet: fae4295525b1f13048147d30a38f66d266af9338
 
-PODFILE CHECKSUM: b91e5290ea0c4fa89c18db35dc3987c419cb4e37
+PODFILE CHECKSUM: 57a67cd5aac3ac3bdffb41e3f758777f9ec8ffc0
 
 COCOAPODS: 1.5.2

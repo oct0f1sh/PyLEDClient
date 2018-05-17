@@ -14,8 +14,12 @@ class DevicesViewController: UIViewController {
     override func viewDidLoad() {
         self.navigationController?.navigationBar.prefersLargeTitles = true
     }
-
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let vc = segue.destination as? DeviceDetailViewController {
+            vc.title = "Device \(tableView.indexPathForSelectedRow!.row)"
+        }
+    }
 }
 
 extension DevicesViewController: UITableViewDataSource {
@@ -25,6 +29,10 @@ extension DevicesViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: DeviceCellView = tableView.dequeueReusableCell(withIdentifier: "DeviceCell") as! DeviceCellView
+        
+        cell.deviceStatusView.backgroundColor = (indexPath.row % 2 == 0) ? .red : .green
+        //cell.deviceNameLabel.text = "Device \(indexPath.row)"
+        cell.deviceNameLabel.text = "Duncan's LED Strip"
         
         return cell
     }
