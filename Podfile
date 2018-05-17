@@ -8,5 +8,6 @@ target 'PyLEDClient' do
   # Pods for PyLEDClient
   pod 'CocoaMQTT'
   pod 'Valet'
+  pod 'SCLAlertView'
 
 end
