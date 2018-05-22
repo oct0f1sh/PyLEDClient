@@ -10,6 +10,11 @@
 		AE67F22320B4778800175028 /* JSONFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F22220B4778800175028 /* JSONFormatter.swift */; };
 		AE67F22520B488A000175028 /* DevicesViewController+CocoaMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F22420B488A000175028 /* DevicesViewController+CocoaMQTT.swift */; };
 		AE67F22820B48D3600175028 /* MQTTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F22720B48D3600175028 /* MQTTManager.swift */; };
+		AE67F22A20B4A8C300175028 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE67F22920B4A8C300175028 /* Settings.storyboard */; };
+		AE67F22C20B4A8D400175028 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F22B20B4A8D400175028 /* SettingsViewController.swift */; };
+		AE67F22E20B4A9DE00175028 /* SettingsCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F22D20B4A9DE00175028 /* SettingsCellView.swift */; };
+		AE67F23120B4AD1C00175028 /* MQTTSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F23020B4AD1C00175028 /* MQTTSettingsViewController.swift */; };
+		AE67F23420B4AD7B00175028 /* MQTTSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE67F23320B4AD7B00175028 /* MQTTSettings.storyboard */; };
 		AE8DBF0D20ACDCE1004602C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF0C20ACDCE1004602C3 /* AppDelegate.swift */; };
 		AE8DBF0F20ACDCE1004602C3 /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF0E20ACDCE1004602C3 /* DevicesViewController.swift */; };
 		AE8DBF1220ACDCE1004602C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DBF1020ACDCE1004602C3 /* Main.storyboard */; };
@@ -30,6 +35,11 @@
 		AE67F22220B4778800175028 /* JSONFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFormatter.swift; sourceTree = "<group>"; };
 		AE67F22420B488A000175028 /* DevicesViewController+CocoaMQTT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DevicesViewController+CocoaMQTT.swift"; sourceTree = "<group>"; };
 		AE67F22720B48D3600175028 /* MQTTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTManager.swift; sourceTree = "<group>"; };
+		AE67F22920B4A8C300175028 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		AE67F22B20B4A8D400175028 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AE67F22D20B4A9DE00175028 /* SettingsCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCellView.swift; sourceTree = "<group>"; };
+		AE67F23020B4AD1C00175028 /* MQTTSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTSettingsViewController.swift; sourceTree = "<group>"; };
+		AE67F23320B4AD7B00175028 /* MQTTSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MQTTSettings.storyboard; sourceTree = "<group>"; };
 		AE8DBF0920ACDCE1004602C3 /* PyLEDClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PyLEDClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8DBF0C20ACDCE1004602C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE8DBF0E20ACDCE1004602C3 /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +96,22 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		AE67F22F20B4AD0100175028 /* SettingsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE67F23020B4AD1C00175028 /* MQTTSettingsViewController.swift */,
+			);
+			path = SettingsViewControllers;
+			sourceTree = "<group>";
+		};
+		AE67F23220B4AD6800175028 /* SettingsStoryboards */ = {
+			isa = PBXGroup;
+			children = (
+				AE67F23320B4AD7B00175028 /* MQTTSettings.storyboard */,
+			);
+			path = SettingsStoryboards;
+			sourceTree = "<group>";
+		};
 		AE8DBF0020ACDCE1004602C3 = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +150,8 @@
 			children = (
 				AE8DBF0E20ACDCE1004602C3 /* DevicesViewController.swift */,
 				AE8DBF2A20ACECB7004602C3 /* DeviceDetailViewController.swift */,
+				AE67F22B20B4A8D400175028 /* SettingsViewController.swift */,
+				AE67F22F20B4AD0100175028 /* SettingsViewControllers */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -133,6 +161,8 @@
 			children = (
 				AE8DBF1020ACDCE1004602C3 /* Main.storyboard */,
 				AE8DBF2820ACEC76004602C3 /* DeviceDetail.storyboard */,
+				AE67F22920B4A8C300175028 /* Settings.storyboard */,
+				AE67F23220B4AD6800175028 /* SettingsStoryboards */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -152,6 +182,7 @@
 			children = (
 				AE8DBF2320ACE0BB004602C3 /* DeviceCellView.swift */,
 				AE8DBF3020B32856004602C3 /* RGBColorPickerView.swift */,
+				AE67F22D20B4A9DE00175028 /* SettingsCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,9 +266,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE8DBF1720ACDCEB004602C3 /* LaunchScreen.storyboard in Resources */,
+				AE67F23420B4AD7B00175028 /* MQTTSettings.storyboard in Resources */,
 				AE8DBF2920ACEC76004602C3 /* DeviceDetail.storyboard in Resources */,
 				AE8DBF1420ACDCEB004602C3 /* Assets.xcassets in Resources */,
 				AE8DBF1220ACDCE1004602C3 /* Main.storyboard in Resources */,
+				AE67F22A20B4A8C300175028 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +329,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE8DBF2420ACE0BB004602C3 /* DeviceCellView.swift in Sources */,
+				AE67F22E20B4A9DE00175028 /* SettingsCellView.swift in Sources */,
+				AE67F23120B4AD1C00175028 /* MQTTSettingsViewController.swift in Sources */,
 				AE8DBF2B20ACECB7004602C3 /* DeviceDetailViewController.swift in Sources */,
 				AE67F22320B4778800175028 /* JSONFormatter.swift in Sources */,
 				AE8DBF0F20ACDCE1004602C3 /* DevicesViewController.swift in Sources */,
@@ -306,6 +341,7 @@
 				AE67F22520B488A000175028 /* DevicesViewController+CocoaMQTT.swift in Sources */,
 				AE67F22820B48D3600175028 /* MQTTManager.swift in Sources */,
 				AE8DBF2F20AE2173004602C3 /* String+Divider.swift in Sources */,
+				AE67F22C20B4A8D400175028 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

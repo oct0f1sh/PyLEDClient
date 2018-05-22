@@ -93,9 +93,9 @@
                                 <action selector="refreshButtonTapped:" destination="BYZ-38-t0r" id="JtH-YB-EQg"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="R6u-Ap-ybe">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="R6u-Ap-ybe">
                             <connections>
-                                <action selector="addButtonTapped:" destination="BYZ-38-t0r" id="6W3-a8-9g3"/>
+                                <segue destination="V5Y-hY-bjZ" kind="show" id="7gr-T9-5cj"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -107,13 +107,21 @@
             </objects>
             <point key="canvasLocation" x="972" y="33.251231527093594"/>
         </scene>
+        <!--Settings-->
+        <scene sceneID="86o-PI-5Z6">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" id="V5Y-hY-bjZ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="83q-tS-qbU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1998" y="-31"/>
+        </scene>
         <!--DeviceDetail-->
         <scene sceneID="j7U-LH-R53">
             <objects>
                 <viewControllerPlaceholder storyboardName="DeviceDetail" id="UD6-He-gBP" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cJ0-RI-VPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2163" y="34"/>
+            <point key="canvasLocation" x="2018" y="112"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Geo-Nh-7pO">

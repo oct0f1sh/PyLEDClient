@@ -53,6 +53,6 @@ extension DevicesViewController: CocoaMQTTDelegate {
         let alertView = SCLAlertView()
         alertView.showNotice("DISCONNECTED", subTitle: "You have been disconnected from the MQTT server")
         
-        self.mqtt = nil
+        MQTTManager.sharedInstance.mqtt = nil
     }
 }

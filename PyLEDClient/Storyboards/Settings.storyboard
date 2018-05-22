@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mOA-Eg-7JE">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Settings View Controller-->
+        <scene sceneID="C5R-hN-nSJ">
+            <objects>
+                <viewController id="mOA-Eg-7JE" customClass="SettingsViewController" customModule="PyLEDClient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OaI-J0-HJl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="eiO-Pl-JdA">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SettingsCell" rowHeight="74" id="I8F-WQ-97E" customClass="SettingsCellView" customModule="PyLEDClient" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="74"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="I8F-WQ-97E" id="Dya-MO-jTD">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="73.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setting" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enc-9n-u4f">
+                                                    <rect key="frame" x="40" y="25" width="63" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="enc-9n-u4f" firstAttribute="centerY" secondItem="Dya-MO-jTD" secondAttribute="centerY" id="YuN-yp-nQ7"/>
+                                                <constraint firstItem="enc-9n-u4f" firstAttribute="leading" secondItem="Dya-MO-jTD" secondAttribute="leading" constant="40" id="bSB-hn-TIg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="settingsLabel" destination="enc-9n-u4f" id="85E-W8-SLn"/>
+                                            <segue destination="LVh-vh-RFU" kind="show" id="5fA-Rh-K2P"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="mOA-Eg-7JE" id="udp-Vq-aWn"/>
+                                    <outlet property="delegate" destination="mOA-Eg-7JE" id="amX-BU-vcb"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eiO-Pl-JdA" secondAttribute="trailing" id="1ym-MS-2sF"/>
+                            <constraint firstAttribute="bottom" secondItem="eiO-Pl-JdA" secondAttribute="bottom" id="9Po-Xn-XnU"/>
+                            <constraint firstItem="eiO-Pl-JdA" firstAttribute="top" secondItem="OaI-J0-HJl" secondAttribute="top" id="sMH-Pd-bP3"/>
+                            <constraint firstItem="eiO-Pl-JdA" firstAttribute="leading" secondItem="OaI-J0-HJl" secondAttribute="leading" id="sae-cu-NXO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XdK-rQ-ZcQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="eiO-Pl-JdA" id="9eE-fn-Pf5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H0g-MP-Mo9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157.59999999999999" y="76.847290640394093"/>
+        </scene>
+        <!--MQTTSettings-->
+        <scene sceneID="naA-Ai-0Cs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MQTTSettings" id="LVh-vh-RFU" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RiE-xB-BJ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1495" y="77"/>
+        </scene>
+    </scenes>
+</document>
