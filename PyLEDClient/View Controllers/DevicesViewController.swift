@@ -13,6 +13,7 @@ import Valet
 
 class DevicesViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var connectionBarButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         self.navigationController?.navigationBar.prefersLargeTitles = true
@@ -26,12 +27,14 @@ class DevicesViewController: UIViewController {
         }
     }
     
-    func toggleMQTTConnection() {
-        // If already has mqtt server info then connect
-        guard MQTTManager.sharedInstance.mqtt != nil else {
-            MQTTManager.sharedInstance.mqtt.connect()
-            return
-        }
+    func toggleConnectedStatus() {
+        connectionBarButton.title = connectionBarButton.title == "Connect" ? "Disconnect" : "Connect"
+        
+        let cell: DeviceCellView = tableView.cellForRow(at: IndexPath(item: 0, section: 0)) as! DeviceCellView
+        
+        cell.isUserInteractionEnabled = !cell.isUserInteractionEnabled
+        
+        cell.deviceStatusView.backgroundColor = cell.deviceStatusView.backgroundColor == .red ? .green : .red
     }
     
     @IBAction func refreshButtonTapped(_ sender: Any) {
@@ -97,8 +100,12 @@ class DevicesViewController: UIViewController {
 //        }
 //    }
         if let _ = MQTTManager.sharedInstance.mqtt {
+            // ALREADY CONNECTED - DISCONNECT
+            MQTTManager.sharedInstance.mqtt.disconnect()
+        } else {
             MQTTManager.sharedInstance.createClient() {
-                
+                MQTTManager.sharedInstance.mqtt.delegate = self
+                MQTTManager.sharedInstance.mqtt.connect()
             }
         }
     }
@@ -106,14 +113,16 @@ class DevicesViewController: UIViewController {
 
 extension DevicesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 1
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: DeviceCellView = tableView.dequeueReusableCell(withIdentifier: "DeviceCell") as! DeviceCellView
         
-        cell.deviceStatusView.backgroundColor = (indexPath.row % 2 == 0) ? .red : .green
+        cell.deviceStatusView.backgroundColor = .red
         cell.deviceNameLabel.text = "Duncan's LED Strip \(indexPath.row)"
+        
+        cell.isUserInteractionEnabled = false
         
         return cell
     }

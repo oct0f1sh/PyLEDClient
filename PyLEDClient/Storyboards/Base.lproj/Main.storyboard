@@ -88,7 +88,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Devices" id="TUj-Ba-Wk2">
-                        <barButtonItem key="leftBarButtonItem" systemItem="refresh" id="1iv-ab-8Ze">
+                        <barButtonItem key="leftBarButtonItem" title="Connect" id="1iv-ab-8Ze">
                             <connections>
                                 <action selector="refreshButtonTapped:" destination="BYZ-38-t0r" id="JtH-YB-EQg"/>
                             </connections>
@@ -100,6 +100,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="connectionBarButton" destination="1iv-ab-8Ze" id="VfY-FB-oXk"/>
                         <outlet property="tableView" destination="buy-G7-pcN" id="0Bf-dg-hdz"/>
                     </connections>
                 </viewController>

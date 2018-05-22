@@ -9,11 +9,18 @@
 import Foundation
 import UIKit
 
-class RGBColorPicker: UIView {
+protocol RGBColorPickerDelegate: class {
+    func colorPicker(sender: RGBColorPicker, updatedValue slider: (r: CGFloat, g: CGFloat, b: CGFloat))
+}
+
+@IBDesignable
+class RGBColorPicker:UIView {
     var redSlider: UISlider!
     var greenSlider: UISlider!
     var blueSlider: UISlider!
     var previewView: UIView!
+    
+    weak var delegate: RGBColorPickerDelegate?
     
     override func draw(_ rect: CGRect) {
         layoutControls()
@@ -62,6 +69,8 @@ class RGBColorPicker: UIView {
         let r = CGFloat(redSlider.value)
         let g = CGFloat(greenSlider.value)
         let b = CGFloat(blueSlider.value)
+        
+        delegate?.colorPicker(sender: self, updatedValue: (r, g, b))
         
         self.previewView.backgroundColor = UIColor.init(red: r, green: g, blue: b, alpha: 1)
         

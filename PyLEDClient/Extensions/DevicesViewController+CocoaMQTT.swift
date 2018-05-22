@@ -15,8 +15,7 @@ extension DevicesViewController: CocoaMQTTDelegate {
     func mqtt(_ mqtt: CocoaMQTT, didConnectAck ack: CocoaMQTTConnAck) {
         print(String.dividedMessage(title: "CONNECTION ACKNOWLEDGED", content: nil))
         
-        let alertView = SCLAlertView()
-        alertView.showNotice("CONNECTED", subTitle: "Connected to MQTT Server")
+        self.toggleConnectedStatus()
     }
     
     func mqtt(_ mqtt: CocoaMQTT, didPublishMessage message: CocoaMQTTMessage, id: UInt16) {
@@ -50,8 +49,13 @@ extension DevicesViewController: CocoaMQTTDelegate {
     func mqttDidDisconnect(_ mqtt: CocoaMQTT, withError err: Error?) {
         print(String.dividedMessage(title: "DISCONNECTED FROM SERVER", content: (err != nil ? err?.localizedDescription : nil)))
         
-        let alertView = SCLAlertView()
-        alertView.showNotice("DISCONNECTED", subTitle: "You have been disconnected from the MQTT server")
+        if let _ = err {
+            let alertView = SCLAlertView()
+            
+            alertView.showNotice("ERROR CONNECTING", subTitle: "Invalid MQTT Server info, please correct it in settings.")
+        } else {
+            self.toggleConnectedStatus()
+        }
         
         MQTTManager.sharedInstance.mqtt = nil
     }
