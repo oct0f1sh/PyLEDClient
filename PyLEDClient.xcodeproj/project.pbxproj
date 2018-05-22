@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AE67F22320B4778800175028 /* JSONFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F22220B4778800175028 /* JSONFormatter.swift */; };
+		AE67F22520B488A000175028 /* DevicesViewController+CocoaMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F22420B488A000175028 /* DevicesViewController+CocoaMQTT.swift */; };
+		AE67F22820B48D3600175028 /* MQTTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F22720B48D3600175028 /* MQTTManager.swift */; };
 		AE8DBF0D20ACDCE1004602C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF0C20ACDCE1004602C3 /* AppDelegate.swift */; };
 		AE8DBF0F20ACDCE1004602C3 /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF0E20ACDCE1004602C3 /* DevicesViewController.swift */; };
 		AE8DBF1220ACDCE1004602C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE8DBF1020ACDCE1004602C3 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		73E75D7EA56D5D61388DF4BC /* Pods-PyLEDClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyLEDClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-PyLEDClient/Pods-PyLEDClient.release.xcconfig"; sourceTree = "<group>"; };
 		AE67F22220B4778800175028 /* JSONFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFormatter.swift; sourceTree = "<group>"; };
+		AE67F22420B488A000175028 /* DevicesViewController+CocoaMQTT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DevicesViewController+CocoaMQTT.swift"; sourceTree = "<group>"; };
+		AE67F22720B48D3600175028 /* MQTTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTManager.swift; sourceTree = "<group>"; };
 		AE8DBF0920ACDCE1004602C3 /* PyLEDClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PyLEDClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE8DBF0C20ACDCE1004602C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE8DBF0E20ACDCE1004602C3 /* DevicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				AE67F22220B4778800175028 /* JSONFormatter.swift */,
+				AE67F22720B48D3600175028 /* MQTTManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			children = (
 				AE8DBF2620ACE442004602C3 /* UIView+RoundedCorners.swift */,
 				AE8DBF2E20AE2173004602C3 /* String+Divider.swift */,
+				AE67F22420B488A000175028 /* DevicesViewController+CocoaMQTT.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -297,6 +303,8 @@
 				AE8DBF0D20ACDCE1004602C3 /* AppDelegate.swift in Sources */,
 				AE8DBF2720ACE442004602C3 /* UIView+RoundedCorners.swift in Sources */,
 				AE8DBF3120B32856004602C3 /* RGBColorPickerView.swift in Sources */,
+				AE67F22520B488A000175028 /* DevicesViewController+CocoaMQTT.swift in Sources */,
+				AE67F22820B48D3600175028 /* MQTTManager.swift in Sources */,
 				AE8DBF2F20AE2173004602C3 /* String+Divider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

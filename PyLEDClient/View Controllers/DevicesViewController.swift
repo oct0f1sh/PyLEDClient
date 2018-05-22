@@ -102,7 +102,10 @@ class DevicesViewController: UIViewController {
                         
                         let alertView = SCLAlertView()
                         alertView.addButton("Clear") {
-                            self.mqtt.publish("test", withString: "{\"message\": \"clear\"}")
+                            let args = "{\"r\": 0, \"g\": 0, \"b\": 0}"
+                            let message = JSONFormatter.formatToJson(message: "solid_color", args: args)
+                            
+                            self.mqtt.publish("test", withString: message)
                         }
                         
                         alertView.addButton("Test strip") {
@@ -120,7 +123,7 @@ class DevicesViewController: UIViewController {
                             
                             alrtView.customSubview = subview
                             
-                            let args: String = "{\"r\": 255, \"g\": 25, \"b\": 25}"
+                            let args: String = "{\"r\": 255, \"g\": 25, \"b\": 25, \"duration\": 5}"
                             
                             let message = JSONFormatter.formatToJson(message: "solid_color", args: args)
                             
@@ -164,48 +167,4 @@ extension DevicesViewController: UITableViewDelegate {
     
 }
 
-extension DevicesViewController: CocoaMQTTDelegate {
-    func mqtt(_ mqtt: CocoaMQTT, didConnectAck ack: CocoaMQTTConnAck) {
-        print(String.dividedMessage(title: "CONNECTION ACKNOWLEDGED", content: nil))
-        
-        let alertView = SCLAlertView()
-        alertView.showNotice("CONNECTED", subTitle: "Connected to MQTT Server")
-    }
-    
-    func mqtt(_ mqtt: CocoaMQTT, didPublishMessage message: CocoaMQTTMessage, id: UInt16) {
-        print(String.dividedMessage(title: "PUBLISHED MESSAGE", content: message.string))
-    }
-    
-    func mqtt(_ mqtt: CocoaMQTT, didPublishAck id: UInt16) {
-        print(String.dividedMessage(title: "PUBLISH ACKNOWLEDGED", content: nil))
-    }
-    
-    func mqtt(_ mqtt: CocoaMQTT, didReceiveMessage message: CocoaMQTTMessage, id: UInt16) {
-        print(String.dividedMessage(title: "MESSAGE RECEIVED", content: message.string))
-    }
-    
-    func mqtt(_ mqtt: CocoaMQTT, didSubscribeTopic topic: String) {
-        print(String.dividedMessage(title: "SUBSCRIBED TO TOPIC", content: "topic: \(topic)"))
-    }
-    
-    func mqtt(_ mqtt: CocoaMQTT, didUnsubscribeTopic topic: String) {
-        print(String.dividedMessage(title: "UNSUBSCRIBED FROM TOPIC", content: "topic: \(topic)"))
-    }
-    
-    func mqttDidPing(_ mqtt: CocoaMQTT) {
-        print(String.dividedMessage(title: "PINGED SERVER", content: nil))
-    }
-    
-    func mqttDidReceivePong(_ mqtt: CocoaMQTT) {
-        print(String.dividedMessage(title: "RECEIVED PING", content: nil))
-    }
-    
-    func mqttDidDisconnect(_ mqtt: CocoaMQTT, withError err: Error?) {
-        print(String.dividedMessage(title: "DISCONNECTED FROM SERVER", content: (err != nil ? err?.localizedDescription : nil)))
-        
-        let alertView = SCLAlertView()
-        alertView.showNotice("DISCONNECTED", subTitle: "You have been disconnected from the MQTT server")
-        
-        self.mqtt = nil
-    }
-}
+
