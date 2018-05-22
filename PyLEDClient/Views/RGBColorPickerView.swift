@@ -26,10 +26,6 @@ class RGBColorPicker:UIView {
         layoutControls()
     }
     
-//    override var intrinsicContentSize: CGSize {
-//        return CGSize(width: CGFloat(250), height: CGFloat(140))
-//    }
-    
     func layoutControls() {
         let previewViewSize = CGFloat(35)
         

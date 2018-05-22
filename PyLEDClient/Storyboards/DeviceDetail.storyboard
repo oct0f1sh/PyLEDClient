@@ -48,8 +48,8 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqz-i5-BNz">
-                                <rect key="frame" x="167" y="447" width="40" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bqz-i5-BNz" customClass="SendButton" customModule="PyLEDClient" customModuleProvider="target">
+                                <rect key="frame" x="137" y="447" width="100" height="100"/>
                                 <state key="normal" title="SEND"/>
                                 <connections>
                                     <action selector="sendButtonTapped:" destination="itD-zb-MbC" eventType="touchUpInside" id="ZeZ-Hv-xgi"/>

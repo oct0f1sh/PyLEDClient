@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE01C6EA20B4D2200006A1A8 /* SendButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01C6E920B4D2200006A1A8 /* SendButton.swift */; };
 		AE67F22320B4778800175028 /* JSONFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F22220B4778800175028 /* JSONFormatter.swift */; };
 		AE67F22520B488A000175028 /* DevicesViewController+CocoaMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F22420B488A000175028 /* DevicesViewController+CocoaMQTT.swift */; };
 		AE67F22820B48D3600175028 /* MQTTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67F22720B48D3600175028 /* MQTTManager.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		73E75D7EA56D5D61388DF4BC /* Pods-PyLEDClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyLEDClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-PyLEDClient/Pods-PyLEDClient.release.xcconfig"; sourceTree = "<group>"; };
+		AE01C6E920B4D2200006A1A8 /* SendButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendButton.swift; sourceTree = "<group>"; };
 		AE67F22220B4778800175028 /* JSONFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFormatter.swift; sourceTree = "<group>"; };
 		AE67F22420B488A000175028 /* DevicesViewController+CocoaMQTT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DevicesViewController+CocoaMQTT.swift"; sourceTree = "<group>"; };
 		AE67F22720B48D3600175028 /* MQTTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTManager.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				AE8DBF2320ACE0BB004602C3 /* DeviceCellView.swift */,
 				AE8DBF3020B32856004602C3 /* RGBColorPickerView.swift */,
 				AE67F22D20B4A9DE00175028 /* SettingsCellView.swift */,
+				AE01C6E920B4D2200006A1A8 /* SendButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -340,6 +343,7 @@
 				AE8DBF3120B32856004602C3 /* RGBColorPickerView.swift in Sources */,
 				AE67F22520B488A000175028 /* DevicesViewController+CocoaMQTT.swift in Sources */,
 				AE67F22820B48D3600175028 /* MQTTManager.swift in Sources */,
+				AE01C6EA20B4D2200006A1A8 /* SendButton.swift in Sources */,
 				AE8DBF2F20AE2173004602C3 /* String+Divider.swift in Sources */,
 				AE67F22C20B4A8D400175028 /* SettingsViewController.swift in Sources */,
 			);
