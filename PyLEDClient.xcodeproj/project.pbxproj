@@ -28,6 +28,8 @@
 		AE8DBF2D20AD0259004602C3 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF2C20AD0259004602C3 /* Device.swift */; };
 		AE8DBF2F20AE2173004602C3 /* String+Divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF2E20AE2173004602C3 /* String+Divider.swift */; };
 		AE8DBF3120B32856004602C3 /* RGBColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8DBF3020B32856004602C3 /* RGBColorPickerView.swift */; };
+		AE9B78F620C1DAF200A1FF62 /* DeviceControls.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9B78F520C1DAF200A1FF62 /* DeviceControls.storyboard */; };
+		AE9B78F820C1DC2F00A1FF62 /* PluginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9B78F720C1DC2F00A1FF62 /* PluginButton.swift */; };
 		CF16D09AAF4CC8CF5AE8C711 /* Pods_PyLEDClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF612B7E67BB1F1764F1F75B /* Pods_PyLEDClient.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +58,8 @@
 		AE8DBF2C20AD0259004602C3 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		AE8DBF2E20AE2173004602C3 /* String+Divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Divider.swift"; sourceTree = "<group>"; };
 		AE8DBF3020B32856004602C3 /* RGBColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBColorPickerView.swift; sourceTree = "<group>"; };
+		AE9B78F520C1DAF200A1FF62 /* DeviceControls.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeviceControls.storyboard; sourceTree = "<group>"; };
+		AE9B78F720C1DC2F00A1FF62 /* PluginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginButton.swift; sourceTree = "<group>"; };
 		D2951A141BC68F4458D882C5 /* Pods-PyLEDClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PyLEDClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PyLEDClient/Pods-PyLEDClient.debug.xcconfig"; sourceTree = "<group>"; };
 		EF612B7E67BB1F1764F1F75B /* Pods_PyLEDClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PyLEDClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -164,6 +168,7 @@
 				AE8DBF1020ACDCE1004602C3 /* Main.storyboard */,
 				AE8DBF2820ACEC76004602C3 /* DeviceDetail.storyboard */,
 				AE67F22920B4A8C300175028 /* Settings.storyboard */,
+				AE9B78F520C1DAF200A1FF62 /* DeviceControls.storyboard */,
 				AE67F23220B4AD6800175028 /* SettingsStoryboards */,
 			);
 			path = Storyboards;
@@ -183,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				AE8DBF2320ACE0BB004602C3 /* DeviceCellView.swift */,
+				AE9B78F720C1DC2F00A1FF62 /* PluginButton.swift */,
 				AE8DBF3020B32856004602C3 /* RGBColorPickerView.swift */,
 				AE67F22D20B4A9DE00175028 /* SettingsCellView.swift */,
 				AE01C6E920B4D2200006A1A8 /* SendButton.swift */,
@@ -272,6 +278,7 @@
 				AE67F23420B4AD7B00175028 /* MQTTSettings.storyboard in Resources */,
 				AE8DBF2920ACEC76004602C3 /* DeviceDetail.storyboard in Resources */,
 				AE8DBF1420ACDCEB004602C3 /* Assets.xcassets in Resources */,
+				AE9B78F620C1DAF200A1FF62 /* DeviceControls.storyboard in Resources */,
 				AE8DBF1220ACDCE1004602C3 /* Main.storyboard in Resources */,
 				AE67F22A20B4A8C300175028 /* Settings.storyboard in Resources */,
 			);
@@ -339,6 +346,7 @@
 				AE8DBF0F20ACDCE1004602C3 /* DevicesViewController.swift in Sources */,
 				AE8DBF2D20AD0259004602C3 /* Device.swift in Sources */,
 				AE8DBF0D20ACDCE1004602C3 /* AppDelegate.swift in Sources */,
+				AE9B78F820C1DC2F00A1FF62 /* PluginButton.swift in Sources */,
 				AE8DBF2720ACE442004602C3 /* UIView+RoundedCorners.swift in Sources */,
 				AE8DBF3120B32856004602C3 /* RGBColorPickerView.swift in Sources */,
 				AE67F22520B488A000175028 /* DevicesViewController+CocoaMQTT.swift in Sources */,
