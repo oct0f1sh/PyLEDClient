@@ -145,6 +145,7 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MSCircularSlider/MSCircularSlider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyTimer/SwiftyTimer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Valet/Valet.framework"
@@ -152,6 +153,7 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CocoaMQTT/CocoaMQTT.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MSCircularSlider/MSCircularSlider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyTimer/SwiftyTimer.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Valet/Valet.framework"

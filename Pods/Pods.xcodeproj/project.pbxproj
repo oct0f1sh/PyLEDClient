@@ -7,72 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F41A8360C6CAD07CEFC5C36401AB049 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5925C4DDFCA1B50D43B6BD12B62101E /* Service.swift */; };
-		150A44A636DD0C84776DA5BA42C96520 /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3BD5AE872281E5ACB798DB05D24DB2 /* SCLAlertView-dummy.m */; };
-		1608130EC3E183D6E76A847B3FDD78E6 /* SecItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20059623EB2B315ADA74466E724BD1A3 /* SecItem.swift */; };
-		162F5E537598CAB2FD9C4475399A1184 /* KeychainQueryConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80A84F786C20E83B2FE79E156B1ABD /* KeychainQueryConvertible.swift */; };
-		16DC6826306FE919355D4004243F9993 /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44F7340B59DC890FAB4642C71F903AD /* SwiftyTimer.swift */; };
-		1EA5449215AD1F6E7DCE47DEDB93009B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCCC02B6485A5F4325C12AE8E86F1F9 /* Security.framework */; };
-		2991D1E6D4AF8123D6772795D1416A01 /* CocoaMQTTMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57922F89F794943C5BD91C8A67C413C9 /* CocoaMQTTMessage.swift */; };
-		2BA9E4CCF55A1D42023061935C41AC43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDC941CB71DDA2C80534D208AC53CCD /* Foundation.framework */; };
-		34E4A8322640782EF2D10CDC75305D52 /* CocoaMQTT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09DF149FD1C480DC15CA6A26FCBFABCF /* CocoaMQTT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35A2FAD2A8A508202FECD419875F0DB8 /* Pods-PyLEDClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B91CEE9F4F57BED4980732DDEE958 /* Pods-PyLEDClient-dummy.m */; };
-		3F104C185043C731D38BD3838470B489 /* CocoaMQTTFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B45FC673C1CAAB2DBB91A75E2E317E /* CocoaMQTTFrame.swift */; };
-		428AEB3CED57F10D7D426DB7F82323B5 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059249A023B3F6AF9799E7D66E5E34A7 /* SCLAlertView.swift */; };
+		0498DC41A4243E5018A07DDA4C585730 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB4189980155162245EFF4835F199D /* Service.swift */; };
+		06572610FAC28896EE27C4D4E1B680EF /* MSDoubleHandleCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE09D43C069FF96EB56E772F5CB2EB1 /* MSDoubleHandleCircularSlider+IB.swift */; };
+		0664989F8F9312C7169ED216C40B65EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDC941CB71DDA2C80534D208AC53CCD /* Foundation.framework */; };
+		088D181516BAF9C9B74BA596DE7591EA /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0691D10DE3E49461A30938BD106A58E /* ErrorHandler.swift */; };
+		092370FDBE8F29803FD9568D39887231 /* Valet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 611DA761038EA09745CBA90B9F6D33F3 /* Valet-dummy.m */; };
+		0F3D62FD4309CBE08EC0E80D4B450419 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FF062E9A3D4EC1DF69C778D30538C7 /* SCLAlertView.swift */; };
+		16DC6826306FE919355D4004243F9993 /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F787488CCF0F052A5EBD07214E01F2C9 /* SwiftyTimer.swift */; };
+		18FCE1201C0F046B375B209F567ABE24 /* Valet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3700A0ECD2CF67D42229916C9F322BA /* Valet.swift */; };
+		1C5BE7F2C9BC5D4B64D7FB0A38C1A5B5 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE5846F0AF01502576B57871050592A /* Configuration.swift */; };
+		2991D1E6D4AF8123D6772795D1416A01 /* CocoaMQTTMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8336945DDC581AD79FB075C131526043 /* CocoaMQTTMessage.swift */; };
+		2C01D2DCEE55C48ECFBD36E6515969F8 /* SecureEnclaveAccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED54B8AC8635EA41C791A91CEB87C2A /* SecureEnclaveAccessControl.swift */; };
+		312997C965D2FC281EBA989CB4D61527 /* MSCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F02C5A3896442088FD3EE61F726484 /* MSCircularSlider+IB.swift */; };
+		34E4A8322640782EF2D10CDC75305D52 /* CocoaMQTT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CF7DEB9AA27B00E5DD5041AC1403C7 /* CocoaMQTT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B156FA718D2D3CD854442FC4F28E006 /* Valet.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0B8F231346A4EAEEFB4B3C8CFE10FB /* Valet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BDA4D0D9C3993185B2E279C08411BEF /* SecureEnclave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B197B13054FEB443AC7596B6F467CC /* SecureEnclave.swift */; };
+		3F104C185043C731D38BD3838470B489 /* CocoaMQTTFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2955DF7F8094FACB57C6D447B25BE97 /* CocoaMQTTFrame.swift */; };
+		426B761CD62B621F117A12BEC9B626FF /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608B7ADAD030B165137C643DDB80B3E4 /* Keychain.swift */; };
 		47E3A1B541E8A07B82C413A6B5840CB6 /* SwiftyTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCC4977B1F058F6E68A6F5FBD4C8E9D3 /* SwiftyTimer.framework */; };
-		4EC3A800A1D7D8F836278A393EA6E0E1 /* Valet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137898DFCF2D127A82C90FD6DC62261C /* Valet.swift */; };
-		5EEEC7EE28D10758B60DF7B4585E3090 /* Valet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D72C3D32A92F9F4E95FCE12316E7D05 /* Valet-dummy.m */; };
-		6A9B3CD8E30925C4E392FC1B3E026498 /* SinglePromptSecureEnclaveValet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6399905BAA6E539C9BF84048BAEFDB2E /* SinglePromptSecureEnclaveValet.swift */; };
-		6BF4FEFD7DA051EF7289FC165E5CC3B8 /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 831F97E0F1C00E26AF70DCEDFD9A6DE1 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B269E11FF3210374C309A4ED4615379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDC941CB71DDA2C80534D208AC53CCD /* Foundation.framework */; };
+		4C7BEA6B537AA143823E9AFE22363AAC /* CloudAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C744955C55FA342E04D712A4889A653B /* CloudAccessibility.swift */; };
+		4D3036A9DBABBF121D4A39FBB92B31CC /* SinglePromptSecureEnclaveValet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034984FA50A11731F0478D0367899B6 /* SinglePromptSecureEnclaveValet.swift */; };
+		62711889A700AB7DD9CA9FF410C429A4 /* MSDoubleHandleCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67343F468578A255C32BB71BA002AC6 /* MSDoubleHandleCircularSlider.swift */; };
 		6C61C5F4CE62D3CBBB8F50C6F8610E0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDC941CB71DDA2C80534D208AC53CCD /* Foundation.framework */; };
+		712F62908C2FC23FB17D7AAFC7523630 /* SecItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D11618CD5936F8D6C5F0E9CD3F360D /* SecItem.swift */; };
+		7236EB85FB414B40B5050B486E27B7E6 /* MSCircularSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A743CCBF4090379E7CE9D36A82835A4 /* MSCircularSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7346E0D6721FA5BBB81D0ED345EADFD1 /* MigrationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0396AFFD6987EE3B048120EBD18DD09 /* MigrationResult.swift */; };
 		7602D5F6A6BB8B5B12C78AD5A109B20E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCCC02B6485A5F4325C12AE8E86F1F9 /* Security.framework */; };
 		77DEDFF5D140B7D7BC6054B64ED23A43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDC941CB71DDA2C80534D208AC53CCD /* Foundation.framework */; };
-		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 121C2894B4D04CD7BF23A678DF6FF1BA /* CocoaAsyncSocket-dummy.m */; };
-		802422B0CF202064F3B49FE1DC2C1336 /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042A1FAA63A1BB4F6FAFDB03F537FD36 /* Accessibility.swift */; };
+		7E4F0161B4D135DA3A0763619A56C2F5 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A167A2974AA61B4EB42932DDFA0797 /* CocoaAsyncSocket-dummy.m */; };
 		8027C16A4F9925949E9607DB3ED1AAF2 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E19A7AD2108259E14A70952EDBCE74B /* CocoaAsyncSocket.framework */; };
-		835B88D8B0FD1951227A09C5332CEB81 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69D15C3B58BE775143B26A38DD2A7 /* Identifier.swift */; };
-		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 420C76747C253ADCC13B8B887E1DF8CB /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		889FCA7B4C787CF03268BB27A87A6A84 /* Pods-PyLEDClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C674FC9781D22058CC26423440C496 /* Pods-PyLEDClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E7AA2AF60E7650A1463F446CFA12175 /* MigrationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404CF1726652D5F9CEF349F3805A16BE /* MigrationResult.swift */; };
-		93470BA37B86390B8FF297263E6DD871 /* Valet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AEAFB3A175E0111EB30B3236A8C39A2 /* Valet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		943BF07A10E71980CAC8DE757D03B2F4 /* CocoaMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C377DC72C77997531C8AF763B470E /* CocoaMQTT.swift */; };
-		9E0FC2FFD9B7B74E2D50334B0C140159 /* SecureEnclaveAccessControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0097D87BC1E019D144921220861498 /* SecureEnclaveAccessControl.swift */; };
-		A3D7EFF4C10FA180553789175166D805 /* SecureEnclave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CECD4125E1716264B836C4C7042400 /* SecureEnclave.swift */; };
-		A52241A2A60F096B5CC3900B69325D2A /* CloudAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89A246753FA431020518D20FEA2EA7B /* CloudAccessibility.swift */; };
-		A819165E5D40ADD8C2B5C515C97DD8EA /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B207148DD99B25A0506B3B8D05E3647D /* Configuration.swift */; };
-		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 062F8C986FF4883300AABBE58122C348 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C7450484DBD0D89F6481D97B72AADF05 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 34720C233EC782E7BFCDC3C22CE63BC3 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B0CFA46CD4AE92F222313BD0946CBBA8 /* CocoaMQTT.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C978DBCCA493737CFE75564E8EF092 /* CocoaMQTT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC1A68BA6B7319FF8A0B93BEC81971A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDC941CB71DDA2C80534D208AC53CCD /* Foundation.framework */; };
-		C390B5B3F147927FE7F201B439DEEDFE /* Valet.h in Headers */ = {isa = PBXBuildFile; fileRef = 8218DA67782397AEA3E430EFEB914AFC /* Valet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C93C07F90AA16968FBC09C6AE25DF3EB /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FF3F8BA7E33DCD8E162F973CF84B50 /* ErrorHandler.swift */; };
+		815484BEE5EF310C931A0A27EC3416D0 /* Valet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9545F0BC4913558BE874F2F4A3FCC9A /* Valet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8480493AEC1C7AF1B5C0E0BF2F70FB44 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6DEF1C1A426D92ED8F6580FD0CCCE /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8597ED449441F0924913409C971F509F /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C278A6491D656816C1E38E00BF251E /* Accessibility.swift */; };
+		8605EC9700A0A7F5BD11C4937365D94B /* KeychainQueryConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03377FBAC86381927BE95F6A40CD7D1B /* KeychainQueryConvertible.swift */; };
+		943BF07A10E71980CAC8DE757D03B2F4 /* CocoaMQTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CCB4A505E3CAB00B594AF5D1B2A489 /* CocoaMQTT.swift */; };
+		95984B6BC28B63A2289BA278B1B075C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDC941CB71DDA2C80534D208AC53CCD /* Foundation.framework */; };
+		A882891E5A89CADF96C2CA79606409CA /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE42AEA42AF6A2156A6D89E9486DA97 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC7DC2A21843CD99040DCD79FF3BE91B /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E4E126AEA6552068053C2E6E961790 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD60D77F008EF86F9D059208ADF1B999 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DDFD36616087B6C6C99183188763B8 /* SCLExtensions.swift */; };
+		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A631220B00967FDA3816187A25973A6 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B0CFA46CD4AE92F222313BD0946CBBA8 /* CocoaMQTT.h in Headers */ = {isa = PBXBuildFile; fileRef = 648BEDDF4AB9C1991E97A681D01EF95C /* CocoaMQTT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B49CB95DCF5FEB8FE5EB7EB8B16E323A /* MSCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C5BE025F96E9E795216B80DF1EC288 /* MSCircularSlider.swift */; };
+		B4B5F5071A0B30DEE7D8F43089AC7025 /* MSGradientCircularSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B890BFBC767A7C446FCB61ADA460BD1D /* MSGradientCircularSlider.swift */; };
+		B5C346621B2EE171054A538BB1E426D7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BCCC02B6485A5F4325C12AE8E86F1F9 /* Security.framework */; };
+		B7A68989383DEDD23C9B245DAC35A3FB /* SCLAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 736A226E9DB2313C921F752BB9B85E96 /* SCLAlertView-dummy.m */; };
 		C94D640E58AE2D09AD4B03577FC2D240 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDC941CB71DDA2C80534D208AC53CCD /* Foundation.framework */; };
+		CC5121484CD6EFAB9660DAB70CAE1F7E /* SCLAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E85D979D3B13ABC33AC2120F7070250 /* SCLAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D088C0E218A224AFA1A97A5495986F5E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED69306202D82289152B4308DE859E97 /* CFNetwork.framework */; };
-		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB7E9AAB40782FC4A17C671FA35913F /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E637F8CE61E0F9B8676457258E96A60D /* CocoaMQTT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BBFC8BFCBD2CB53DF29F4F5257C9128 /* CocoaMQTT-dummy.m */; };
-		ED8DA0C8A611B80C357C3660C47EBB95 /* SwiftyTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FFD886757578ED0058F51EA2926311 /* SwiftyTimer-dummy.m */; };
-		F243E1D9E515A365D6FAFCCEDFE9CBCE /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A22934D36E68F144C1413CDDE43F38 /* Keychain.swift */; };
-		F607A84EEC32EA6B001A6D18E056D247 /* SecureEnclaveValet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FE1FB04C3CCF1B937D036E38778E34 /* SecureEnclaveValet.swift */; };
-		F99A6526533F7D5126B5074ED7E38BB2 /* SCLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8728F188BF7120AEB83090E10941601 /* SCLExtensions.swift */; };
-		F9A1FFCD0FFEE6E0C5B6AEF3F53479AA /* SwiftyTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD8165C1B5BAF9E3C991C014B2E2708 /* SwiftyTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE89B91785D590A28C08C12F33C7EF4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDC941CB71DDA2C80534D208AC53CCD /* Foundation.framework */; };
+		DDAAC87CAA3A5A03FC84960764C5509C /* MSGradientCircularSlider+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E45AC9595E38082F0E435C7738B3E3 /* MSGradientCircularSlider+IB.swift */; };
+		E4230DB0D114C94B081018C1AC1E9972 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F355A2F22CA2A2AD676D765661690A3 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E445878104097E8E1A0D63ACDDD1678D /* Pods-PyLEDClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6B91CEE9F4F57BED4980732DDEE958 /* Pods-PyLEDClient-dummy.m */; };
+		E637F8CE61E0F9B8676457258E96A60D /* CocoaMQTT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B278E94748237FD3FC97461415E3004 /* CocoaMQTT-dummy.m */; };
+		E8E7E71142F944A3D065EE275B3BCE0F /* Pods-PyLEDClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53C674FC9781D22058CC26423440C496 /* Pods-PyLEDClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED8DA0C8A611B80C357C3660C47EBB95 /* SwiftyTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B106A6DC8069D7C0423CFE09D0C281CA /* SwiftyTimer-dummy.m */; };
+		EF262118F0ABB30408F514EDEA959E08 /* SecureEnclaveValet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA10AEE10C28B3AB5E896D322F5AAB2 /* SecureEnclaveValet.swift */; };
+		F3E94F913F715C4AC0CF4DECE2BFDAD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDC941CB71DDA2C80534D208AC53CCD /* Foundation.framework */; };
+		F5713969E6CB04743BE59A1440CF4D46 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6D32EA58D02686AFA4850326C87331 /* Identifier.swift */; };
+		F643CDB2B4FF23B96FAD43DE30BDCD82 /* MSCircularSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77914FA9FBD8AC7B1A976F131378BE95 /* MSCircularSlider-dummy.m */; };
+		F9A1FFCD0FFEE6E0C5B6AEF3F53479AA /* SwiftyTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D776A689519D793115A1E592207C8DD4 /* SwiftyTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB599F65EF85291739066B834996FDA3 /* MSCircularSliderHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC2F246748D569D41FD31143CF3BD3D /* MSCircularSliderHandle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2D351FDE0D96A5F1FEB95BB1E4858A3B /* PBXContainerItemProxy */ = {
+		01A08CA08AEA545D3B01997ABB8E479A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E720309E6F5A1C69F6C3B3230A0C7B1D;
 			remoteInfo = CocoaMQTT;
 		};
-		43036E40A538EB0FEEB676191C7606CC /* PBXContainerItemProxy */ = {
+		3AACB6BA6F3C1B995EFAF69827B54050 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C09A80A50DDA0F5D03C563E9713D06B5;
-			remoteInfo = SCLAlertView;
+			remoteGlobalIDString = FAAA87C259B24C54C17FFD6EA655954C;
+			remoteInfo = Valet;
+		};
+		56A245EAC1A44DEE430EB2782C5385C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD756C696AE4837726B4CBFA1D299F2D;
+			remoteInfo = SwiftyTimer;
 		};
 		65396324C5F570704BFA2161AD13D20C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -81,12 +98,12 @@
 			remoteGlobalIDString = DD756C696AE4837726B4CBFA1D299F2D;
 			remoteInfo = SwiftyTimer;
 		};
-		8262AF3433E6DD44D1900110C70CF88D /* PBXContainerItemProxy */ = {
+		6E2D651D79E26B7CE952751281B8632A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E2C4A8701FC82E96B0DC627D62C3F3F;
-			remoteInfo = Valet;
+			remoteGlobalIDString = 9E1E6122D4D31F0ABA739583B6D1F4F7;
+			remoteInfo = SCLAlertView;
 		};
 		8A6F2ED52F8549A40BAE2D7A2EFE07F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -95,14 +112,14 @@
 			remoteGlobalIDString = AC0D2D2B4EE7C873431AB3502859CA60;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		E166A7F8A3A3A9E28B77F69F4CE9E563 /* PBXContainerItemProxy */ = {
+		97DA1D6F1C3DC4AB75F5DA896416E9D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DD756C696AE4837726B4CBFA1D299F2D;
-			remoteInfo = SwiftyTimer;
+			remoteGlobalIDString = F92DB2A9C791B7C1A3A693C123747AF2;
+			remoteInfo = MSCircularSlider;
 		};
-		E166B0686201856BADB23F8FD1FDC72D /* PBXContainerItemProxy */ = {
+		ABA1317B5619D240787EE63CC152BF88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -112,94 +129,115 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B1571096662B9EE90183500DEFFE17 /* SwiftyTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTimer.modulemap; sourceTree = "<group>"; };
-		03FA6F258DFF9B151B952E5B697E1841 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		042A1FAA63A1BB4F6FAFDB03F537FD36 /* Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Accessibility.swift; path = Sources/Accessibility.swift; sourceTree = "<group>"; };
-		059249A023B3F6AF9799E7D66E5E34A7 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
-		062F8C986FF4883300AABBE58122C348 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		09DF149FD1C480DC15CA6A26FCBFABCF /* CocoaMQTT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-umbrella.h"; sourceTree = "<group>"; };
-		09FFD886757578ED0058F51EA2926311 /* SwiftyTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTimer-dummy.m"; sourceTree = "<group>"; };
+		00E45AC9595E38082F0E435C7738B3E3 /* MSGradientCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MSGradientCircularSlider+IB.swift"; path = "MSCircularSlider/MSGradientCircularSlider+IB.swift"; sourceTree = "<group>"; };
+		03377FBAC86381927BE95F6A40CD7D1B /* KeychainQueryConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainQueryConvertible.swift; path = Sources/KeychainQueryConvertible.swift; sourceTree = "<group>"; };
+		09586B44F95663933E58A96ED5587498 /* SwiftyTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTimer.modulemap; sourceTree = "<group>"; };
+		0AA6DEF1C1A426D92ED8F6580FD0CCCE /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		0C260BFD9F51DD177CBC3A5609A07762 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
 		0DF0DB0643DA0C4468B221CE1D818301 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		121C2894B4D04CD7BF23A678DF6FF1BA /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
-		137898DFCF2D127A82C90FD6DC62261C /* Valet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Valet.swift; path = Sources/Valet.swift; sourceTree = "<group>"; };
-		183E9DEA139F0C202BA6DA23E59A65E4 /* Valet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Valet.framework; path = Valet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		19C978DBCCA493737CFE75564E8EF092 /* CocoaMQTT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaMQTT.h; path = Source/CocoaMQTT.h; sourceTree = "<group>"; };
+		108694307C15229D10E92065E645ADDB /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		112E802599F454885A89009413970693 /* SwiftyTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTimer.xcconfig; sourceTree = "<group>"; };
+		14D11618CD5936F8D6C5F0E9CD3F360D /* SecItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecItem.swift; path = Sources/Internal/SecItem.swift; sourceTree = "<group>"; };
+		157ACB934ECDE14C60824CF41E782D9E /* MSCircularSlider-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSCircularSlider-prefix.pch"; sourceTree = "<group>"; };
 		1CFD61ED89A11AA9091DB7C1B60BB013 /* Pods-PyLEDClient-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PyLEDClient-resources.sh"; sourceTree = "<group>"; };
-		20059623EB2B315ADA74466E724BD1A3 /* SecItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecItem.swift; path = Sources/Internal/SecItem.swift; sourceTree = "<group>"; };
-		21CECD4125E1716264B836C4C7042400 /* SecureEnclave.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureEnclave.swift; path = Sources/SecureEnclave.swift; sourceTree = "<group>"; };
-		22D96C280EFEC4644CA335336DBFE855 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
-		23FF3F8BA7E33DCD8E162F973CF84B50 /* ErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorHandler.swift; path = Sources/ErrorHandler.swift; sourceTree = "<group>"; };
-		274238BFCF1EA1DFC6DCDBCBBA6BF80C /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34720C233EC782E7BFCDC3C22CE63BC3 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		3D72C3D32A92F9F4E95FCE12316E7D05 /* Valet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Valet-dummy.m"; sourceTree = "<group>"; };
-		3F7B8FF281D2D36728AA25930ED62E67 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
-		404CF1726652D5F9CEF349F3805A16BE /* MigrationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MigrationResult.swift; path = Sources/MigrationResult.swift; sourceTree = "<group>"; };
-		420C76747C253ADCC13B8B887E1DF8CB /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		48FE1FB04C3CCF1B937D036E38778E34 /* SecureEnclaveValet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureEnclaveValet.swift; path = Sources/SecureEnclaveValet.swift; sourceTree = "<group>"; };
-		4AEAFB3A175E0111EB30B3236A8C39A2 /* Valet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Valet-umbrella.h"; sourceTree = "<group>"; };
-		516C377DC72C77997531C8AF763B470E /* CocoaMQTT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTT.swift; path = Source/CocoaMQTT.swift; sourceTree = "<group>"; };
+		1EE5846F0AF01502576B57871050592A /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Internal/Configuration.swift; sourceTree = "<group>"; };
+		2507D755BFCA3D5C6B8ACA9A0D08FB93 /* CocoaMQTT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaMQTT.modulemap; sourceTree = "<group>"; };
+		26C960C368F38C17EACC292170AC36AB /* CocoaMQTT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-prefix.pch"; sourceTree = "<group>"; };
+		29E002A4888DA93C101FFECC3ACC18B7 /* CocoaMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaMQTT.framework; path = CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED54B8AC8635EA41C791A91CEB87C2A /* SecureEnclaveAccessControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureEnclaveAccessControl.swift; path = Sources/SecureEnclaveAccessControl.swift; sourceTree = "<group>"; };
+		33FF062E9A3D4EC1DF69C778D30538C7 /* SCLAlertView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = SCLAlertView/SCLAlertView.swift; sourceTree = "<group>"; };
+		39B197B13054FEB443AC7596B6F467CC /* SecureEnclave.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureEnclave.swift; path = Sources/SecureEnclave.swift; sourceTree = "<group>"; };
+		3B278E94748237FD3FC97461415E3004 /* CocoaMQTT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaMQTT-dummy.m"; sourceTree = "<group>"; };
+		3F0B8F231346A4EAEEFB4B3C8CFE10FB /* Valet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Valet.h; path = Sources/Valet.h; sourceTree = "<group>"; };
+		433B7CA514A140072BBEB2EC55E62E04 /* Valet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Valet.framework; path = Valet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5081CB4C73FED8391F572CB0918C2B0D /* CocoaMQTT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaMQTT.xcconfig; sourceTree = "<group>"; };
+		51F02C5A3896442088FD3EE61F726484 /* MSCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MSCircularSlider+IB.swift"; path = "MSCircularSlider/MSCircularSlider+IB.swift"; sourceTree = "<group>"; };
+		53C278A6491D656816C1E38E00BF251E /* Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Accessibility.swift; path = Sources/Accessibility.swift; sourceTree = "<group>"; };
 		53C674FC9781D22058CC26423440C496 /* Pods-PyLEDClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PyLEDClient-umbrella.h"; sourceTree = "<group>"; };
-		57922F89F794943C5BD91C8A67C413C9 /* CocoaMQTTMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTMessage.swift; path = Source/CocoaMQTTMessage.swift; sourceTree = "<group>"; };
-		57A22934D36E68F144C1413CDDE43F38 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Sources/Internal/Keychain.swift; sourceTree = "<group>"; };
+		56973685EC78045082DF77579E1E99B4 /* SCLAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SCLAlertView.framework; path = SCLAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B2386FD18C931ACA0D4D4105842900 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C9F8064FF43F6AA1D6D4CA96C8C2BD3 /* SCLAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-prefix.pch"; sourceTree = "<group>"; };
 		5CA4997B1E2A5847FE49FE29CEB0A027 /* Pods-PyLEDClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PyLEDClient.modulemap"; sourceTree = "<group>"; };
-		6399905BAA6E539C9BF84048BAEFDB2E /* SinglePromptSecureEnclaveValet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SinglePromptSecureEnclaveValet.swift; path = Sources/SinglePromptSecureEnclaveValet.swift; sourceTree = "<group>"; };
-		68A18411276C927749277A33F22A20C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A3BD5AE872281E5ACB798DB05D24DB2 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
-		6BBFC8BFCBD2CB53DF29F4F5257C9128 /* CocoaMQTT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaMQTT-dummy.m"; sourceTree = "<group>"; };
+		608B7ADAD030B165137C643DDB80B3E4 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Sources/Internal/Keychain.swift; sourceTree = "<group>"; };
+		611DA761038EA09745CBA90B9F6D33F3 /* Valet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Valet-dummy.m"; sourceTree = "<group>"; };
+		6251FDB6A87EB0742B1452DA5134BE39 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		63CCB4A505E3CAB00B594AF5D1B2A489 /* CocoaMQTT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTT.swift; path = Source/CocoaMQTT.swift; sourceTree = "<group>"; };
+		648BEDDF4AB9C1991E97A681D01EF95C /* CocoaMQTT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaMQTT.h; path = Source/CocoaMQTT.h; sourceTree = "<group>"; };
 		6BCCC02B6485A5F4325C12AE8E86F1F9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		6FE09D43C069FF96EB56E772F5CB2EB1 /* MSDoubleHandleCircularSlider+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MSDoubleHandleCircularSlider+IB.swift"; path = "MSCircularSlider/MSDoubleHandleCircularSlider+IB.swift"; sourceTree = "<group>"; };
+		736A226E9DB2313C921F752BB9B85E96 /* SCLAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SCLAlertView-dummy.m"; sourceTree = "<group>"; };
+		73B4E633469C2060187F06FD83971100 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A28CB79BF03172A13833E59CE55E16 /* Pods-PyLEDClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PyLEDClient.release.xcconfig"; sourceTree = "<group>"; };
-		7C12713871A51AE99A481960E8EDF0B1 /* CocoaMQTT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-prefix.pch"; sourceTree = "<group>"; };
-		81A873708B290C5C8EDC4F06777A2A99 /* Valet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Valet.modulemap; sourceTree = "<group>"; };
-		8218DA67782397AEA3E430EFEB914AFC /* Valet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Valet.h; path = Sources/Valet.h; sourceTree = "<group>"; };
-		831F97E0F1C00E26AF70DCEDFD9A6DE1 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		75B299D86C39755163512FA96813B9C8 /* MSCircularSlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MSCircularSlider.framework; path = MSCircularSlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77914FA9FBD8AC7B1A976F131378BE95 /* MSCircularSlider-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSCircularSlider-dummy.m"; sourceTree = "<group>"; };
+		7A743CCBF4090379E7CE9D36A82835A4 /* MSCircularSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSCircularSlider-umbrella.h"; sourceTree = "<group>"; };
+		7F355A2F22CA2A2AD676D765661690A3 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		8336945DDC581AD79FB075C131526043 /* CocoaMQTTMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTMessage.swift; path = Source/CocoaMQTTMessage.swift; sourceTree = "<group>"; };
+		8353DBBA13DF60F4B295DA088ADFEBE9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83BE36AD0F80BDE4E9B07A217C1FB131 /* Pods-PyLEDClient-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PyLEDClient-frameworks.sh"; sourceTree = "<group>"; };
-		85CE0B74135636A2FC61B3E3E6A415AF /* SwiftyTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTimer.xcconfig; sourceTree = "<group>"; };
-		86B45FC673C1CAAB2DBB91A75E2E317E /* CocoaMQTTFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTFrame.swift; path = Source/CocoaMQTTFrame.swift; sourceTree = "<group>"; };
-		8CB7E9AAB40782FC4A17C671FA35913F /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
-		8D237629882E887F59AD1B1690EE0F37 /* CocoaMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaMQTT.framework; path = CocoaMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85E522756A4A8255D70500E36CAED91D /* Valet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Valet.xcconfig; sourceTree = "<group>"; };
+		878ACED9D9FA8AC37FE34296F3FC51C5 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		87CDE710820F1B91DDDC3B7A12BA84DB /* MSCircularSlider.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSCircularSlider.xcconfig; sourceTree = "<group>"; };
+		8A26C2EA106226572017E605093CF86F /* SwiftyTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-prefix.pch"; sourceTree = "<group>"; };
+		8A631220B00967FDA3816187A25973A6 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		8EA10AEE10C28B3AB5E896D322F5AAB2 /* SecureEnclaveValet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureEnclaveValet.swift; path = Sources/SecureEnclaveValet.swift; sourceTree = "<group>"; };
 		8EDC941CB71DDA2C80534D208AC53CCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8F5B427CA5C0461AFA6F531A489C45BF /* CocoaMQTT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaMQTT.xcconfig; sourceTree = "<group>"; };
+		8F1B793065B2F5B1B9625FE3D05CCE65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9981C89A25FB3433DDEC539095D9F075 /* CocoaMQTT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaMQTT.modulemap; sourceTree = "<group>"; };
-		9B05B82702E621C445F0AF4CEE24D2E0 /* Valet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Valet.xcconfig; sourceTree = "<group>"; };
-		9DD8165C1B5BAF9E3C991C014B2E2708 /* SwiftyTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-umbrella.h"; sourceTree = "<group>"; };
+		94B1B48714BB386809CB92E43F82D0B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C30F482494082857E081D7A44B8D9CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E19A7AD2108259E14A70952EDBCE74B /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A44F7340B59DC890FAB4642C71F903AD /* SwiftyTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTimer.swift; path = Sources/SwiftyTimer.swift; sourceTree = "<group>"; };
-		A8728F188BF7120AEB83090E10941601 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		9E85D979D3B13ABC33AC2120F7070250 /* SCLAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SCLAlertView-umbrella.h"; sourceTree = "<group>"; };
+		A034984FA50A11731F0478D0367899B6 /* SinglePromptSecureEnclaveValet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SinglePromptSecureEnclaveValet.swift; path = Sources/SinglePromptSecureEnclaveValet.swift; sourceTree = "<group>"; };
+		A5F9550609A5944A87F23C2A4C278C77 /* Valet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Valet.modulemap; sourceTree = "<group>"; };
+		A67343F468578A255C32BB71BA002AC6 /* MSDoubleHandleCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSDoubleHandleCircularSlider.swift; path = MSCircularSlider/MSDoubleHandleCircularSlider.swift; sourceTree = "<group>"; };
+		A7C5BE025F96E9E795216B80DF1EC288 /* MSCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCircularSlider.swift; path = MSCircularSlider/MSCircularSlider.swift; sourceTree = "<group>"; };
 		AB7066ED68C3B19E9BFD22DFBCC94325 /* Pods-PyLEDClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PyLEDClient.debug.xcconfig"; sourceTree = "<group>"; };
-		AD7EEAD3EF034FCA89304D49CADFB699 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
-		B1C69D15C3B58BE775143B26A38DD2A7 /* Identifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifier.swift; path = Sources/Identifier.swift; sourceTree = "<group>"; };
-		B207148DD99B25A0506B3B8D05E3647D /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Internal/Configuration.swift; sourceTree = "<group>"; };
-		B984D7BAA9EC127A01D6D434042F3B24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAD799F9108EB78DA0D5ABE6D24E4D06 /* SCLAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SCLAlertView.modulemap; sourceTree = "<group>"; };
-		BC75151061C238D1B7965AD3B100807D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE42AEA42AF6A2156A6D89E9486DA97 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		AE56B3C2C9AC9A5487EC4E5783B0B248 /* Pods_PyLEDClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PyLEDClient.framework; path = "Pods-PyLEDClient.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B106A6DC8069D7C0423CFE09D0C281CA /* SwiftyTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTimer-dummy.m"; sourceTree = "<group>"; };
+		B890BFBC767A7C446FCB61ADA460BD1D /* MSGradientCircularSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSGradientCircularSlider.swift; path = MSCircularSlider/MSGradientCircularSlider.swift; sourceTree = "<group>"; };
 		BCC4977B1F058F6E68A6F5FBD4C8E9D3 /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCFB964718E6BBA30B3C972996CE81C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7450484DBD0D89F6481D97B72AADF05 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		C2955DF7F8094FACB57C6D447B25BE97 /* CocoaMQTTFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CocoaMQTTFrame.swift; path = Source/CocoaMQTTFrame.swift; sourceTree = "<group>"; };
+		C2FEDAE150F4877F269F639F13203887 /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTimer.framework; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FB4189980155162245EFF4835F199D /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Sources/Internal/Service.swift; sourceTree = "<group>"; };
+		C744955C55FA342E04D712A4889A653B /* CloudAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudAccessibility.swift; path = Sources/CloudAccessibility.swift; sourceTree = "<group>"; };
+		C7E4E126AEA6552068053C2E6E961790 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		CD6B91CEE9F4F57BED4980732DDEE958 /* Pods-PyLEDClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PyLEDClient-dummy.m"; sourceTree = "<group>"; };
-		CE75D813F30E501504DCB7DD97DDBB5B /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0691D10DE3E49461A30938BD106A58E /* ErrorHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorHandler.swift; path = Sources/ErrorHandler.swift; sourceTree = "<group>"; };
 		D228E8560ACBC59E7CC9A41CF6E049B2 /* Pods-PyLEDClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PyLEDClient-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D2F9130F812EF184331FAB0019A007FC /* Valet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Valet-prefix.pch"; sourceTree = "<group>"; };
-		D443F034CFD22CD381D8F3C57F194170 /* Pods_PyLEDClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PyLEDClient.framework; path = "Pods-PyLEDClient.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D89A246753FA431020518D20FEA2EA7B /* CloudAccessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudAccessibility.swift; path = Sources/CloudAccessibility.swift; sourceTree = "<group>"; };
-		DF0097D87BC1E019D144921220861498 /* SecureEnclaveAccessControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureEnclaveAccessControl.swift; path = Sources/SecureEnclaveAccessControl.swift; sourceTree = "<group>"; };
-		E27EBCE0AB8E9D27372EC3488EC1E3D5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E38C27D3E971EED75B68396BBF0A9ECD /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTimer.framework; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5925C4DDFCA1B50D43B6BD12B62101E /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = Sources/Internal/Service.swift; sourceTree = "<group>"; };
-		E94F87FF9823DDB34F14DF8773DBA5BC /* SwiftyTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-prefix.pch"; sourceTree = "<group>"; };
-		E98FE631A8B3FFE3D46B521CF0EEC3A2 /* SCLAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SCLAlertView.xcconfig; sourceTree = "<group>"; };
+		D6DDFD36616087B6C6C99183188763B8 /* SCLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SCLExtensions.swift; path = SCLAlertView/SCLExtensions.swift; sourceTree = "<group>"; };
+		D776A689519D793115A1E592207C8DD4 /* SwiftyTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-umbrella.h"; sourceTree = "<group>"; };
+		D906B5A72986EE9E3A3021CF356AC18A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9545F0BC4913558BE874F2F4A3FCC9A /* Valet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Valet-umbrella.h"; sourceTree = "<group>"; };
+		E0396AFFD6987EE3B048120EBD18DD09 /* MigrationResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MigrationResult.swift; path = Sources/MigrationResult.swift; sourceTree = "<group>"; };
+		E3CF7DEB9AA27B00E5DD5041AC1403C7 /* CocoaMQTT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaMQTT-umbrella.h"; sourceTree = "<group>"; };
+		E5799B019ABE39881604E836532D9D73 /* CocoaAsyncSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.xcconfig; sourceTree = "<group>"; };
+		E8A167A2974AA61B4EB42932DDFA0797 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		EB6D32EA58D02686AFA4850326C87331 /* Identifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifier.swift; path = Sources/Identifier.swift; sourceTree = "<group>"; };
 		ED69306202D82289152B4308DE859E97 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		ED80A84F786C20E83B2FE79E156B1ABD /* KeychainQueryConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainQueryConvertible.swift; path = Sources/KeychainQueryConvertible.swift; sourceTree = "<group>"; };
+		EEF8E01BEA780335D0EAAA7ECAC081A5 /* MSCircularSlider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MSCircularSlider.modulemap; sourceTree = "<group>"; };
 		F2486904250A01879E2AF056A8318095 /* Pods-PyLEDClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PyLEDClient-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3700A0ECD2CF67D42229916C9F322BA /* Valet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Valet.swift; path = Sources/Valet.swift; sourceTree = "<group>"; };
+		F787488CCF0F052A5EBD07214E01F2C9 /* SwiftyTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTimer.swift; path = Sources/SwiftyTimer.swift; sourceTree = "<group>"; };
+		FE8E049F222060FBC470DF4703516863 /* Valet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Valet-prefix.pch"; sourceTree = "<group>"; };
+		FEC2F246748D569D41FD31143CF3BD3D /* MSCircularSliderHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MSCircularSliderHandle.swift; path = MSCircularSlider/MSCircularSliderHandle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		687D28076C63AEC10039587A34EEDEA8 /* Frameworks */ = {
+		1D8105959BD6E85B2E140706E1542BD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC1A68BA6B7319FF8A0B93BEC81971A2 /* Foundation.framework in Frameworks */,
-				1EA5449215AD1F6E7DCE47DEDB93009B /* Security.framework in Frameworks */,
+				F3E94F913F715C4AC0CF4DECE2BFDAD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D83D9D0FF81A84097A67190A7F6DC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B269E11FF3210374C309A4ED4615379 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,11 +259,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ACF03810EA78CBDA5620EC34DB72981E /* Frameworks */ = {
+		A48D354E5DC8D7DA07E067825A11611B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA9E4CCF55A1D42023061935C41AC43 /* Foundation.framework in Frameworks */,
+				95984B6BC28B63A2289BA278B1B075C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C71F3B3D7048D04A480EE9B44BCC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0664989F8F9312C7169ED216C40B65EC /* Foundation.framework in Frameworks */,
+				B5C346621B2EE171054A538BB1E426D7 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,81 +286,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8BAEDA827DBA486181A77CF750937C5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE89B91785D590A28C08C12F33C7EF4F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B40D97D204E0F3FBA97EC51C4B6EA11 /* Support Files */ = {
+		01F7826B6A42CA0E98218EB97904EC5F /* SCLAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				E27EBCE0AB8E9D27372EC3488EC1E3D5 /* Info.plist */,
-				00B1571096662B9EE90183500DEFFE17 /* SwiftyTimer.modulemap */,
-				85CE0B74135636A2FC61B3E3E6A415AF /* SwiftyTimer.xcconfig */,
-				09FFD886757578ED0058F51EA2926311 /* SwiftyTimer-dummy.m */,
-				E94F87FF9823DDB34F14DF8773DBA5BC /* SwiftyTimer-prefix.pch */,
-				9DD8165C1B5BAF9E3C991C014B2E2708 /* SwiftyTimer-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyTimer";
-			sourceTree = "<group>";
-		};
-		1E998BF5D6EC08CD59F62CF49AEAADA9 /* SCLAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				059249A023B3F6AF9799E7D66E5E34A7 /* SCLAlertView.swift */,
-				A8728F188BF7120AEB83090E10941601 /* SCLExtensions.swift */,
-				A9D11CC7124A129AA04A4E0C7094E3BD /* Support Files */,
+				33FF062E9A3D4EC1DF69C778D30538C7 /* SCLAlertView.swift */,
+				D6DDFD36616087B6C6C99183188763B8 /* SCLExtensions.swift */,
+				A93606CD219D0D6F73423AC2E8B1ED55 /* Support Files */,
 			);
 			name = SCLAlertView;
 			path = SCLAlertView;
 			sourceTree = "<group>";
 		};
-		371C0DBF3F89AD720F75DD3753FFF0F8 /* Support Files */ = {
+		20B1411B7DF30E16FB9617117586C537 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B984D7BAA9EC127A01D6D434042F3B24 /* Info.plist */,
-				81A873708B290C5C8EDC4F06777A2A99 /* Valet.modulemap */,
-				9B05B82702E621C445F0AF4CEE24D2E0 /* Valet.xcconfig */,
-				3D72C3D32A92F9F4E95FCE12316E7D05 /* Valet-dummy.m */,
-				D2F9130F812EF184331FAB0019A007FC /* Valet-prefix.pch */,
-				4AEAFB3A175E0111EB30B3236A8C39A2 /* Valet-umbrella.h */,
+				8F1B793065B2F5B1B9625FE3D05CCE65 /* Info.plist */,
+				09586B44F95663933E58A96ED5587498 /* SwiftyTimer.modulemap */,
+				112E802599F454885A89009413970693 /* SwiftyTimer.xcconfig */,
+				B106A6DC8069D7C0423CFE09D0C281CA /* SwiftyTimer-dummy.m */,
+				8A26C2EA106226572017E605093CF86F /* SwiftyTimer-prefix.pch */,
+				D776A689519D793115A1E592207C8DD4 /* SwiftyTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyTimer";
+			sourceTree = "<group>";
+		};
+		2B73F152E1E40291D3AAD9A8A9B93695 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C30F482494082857E081D7A44B8D9CB /* Info.plist */,
+				A5F9550609A5944A87F23C2A4C278C77 /* Valet.modulemap */,
+				85E522756A4A8255D70500E36CAED91D /* Valet.xcconfig */,
+				611DA761038EA09745CBA90B9F6D33F3 /* Valet-dummy.m */,
+				FE8E049F222060FBC470DF4703516863 /* Valet-prefix.pch */,
+				D9545F0BC4913558BE874F2F4A3FCC9A /* Valet-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Valet";
 			sourceTree = "<group>";
 		};
-		393F47F4B22A950E2067A6E67C91147A /* Products */ = {
+		2E3E8363C0CBE3309A765AC62A2441B7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE75D813F30E501504DCB7DD97DDBB5B /* CocoaAsyncSocket.framework */,
-				8D237629882E887F59AD1B1690EE0F37 /* CocoaMQTT.framework */,
-				D443F034CFD22CD381D8F3C57F194170 /* Pods_PyLEDClient.framework */,
-				274238BFCF1EA1DFC6DCDBCBBA6BF80C /* SCLAlertView.framework */,
-				E38C27D3E971EED75B68396BBF0A9ECD /* SwiftyTimer.framework */,
-				183E9DEA139F0C202BA6DA23E59A65E4 /* Valet.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3D2D3DEE2392470B88C4BC26A17FA6F8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9981C89A25FB3433DDEC539095D9F075 /* CocoaMQTT.modulemap */,
-				8F5B427CA5C0461AFA6F531A489C45BF /* CocoaMQTT.xcconfig */,
-				6BBFC8BFCBD2CB53DF29F4F5257C9128 /* CocoaMQTT-dummy.m */,
-				7C12713871A51AE99A481960E8EDF0B1 /* CocoaMQTT-prefix.pch */,
-				09DF149FD1C480DC15CA6A26FCBFABCF /* CocoaMQTT-umbrella.h */,
-				BCFB964718E6BBA30B3C972996CE81C6 /* Info.plist */,
+				D906B5A72986EE9E3A3021CF356AC18A /* Info.plist */,
+				EEF8E01BEA780335D0EAAA7ECAC081A5 /* MSCircularSlider.modulemap */,
+				87CDE710820F1B91DDDC3B7A12BA84DB /* MSCircularSlider.xcconfig */,
+				77914FA9FBD8AC7B1A976F131378BE95 /* MSCircularSlider-dummy.m */,
+				157ACB934ECDE14C60824CF41E782D9E /* MSCircularSlider-prefix.pch */,
+				7A743CCBF4090379E7CE9D36A82835A4 /* MSCircularSlider-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/CocoaMQTT";
+			path = "../Target Support Files/MSCircularSlider";
+			sourceTree = "<group>";
+		};
+		491B3FB0E36C2D52A72D560455081195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73B4E633469C2060187F06FD83971100 /* CocoaAsyncSocket.framework */,
+				29E002A4888DA93C101FFECC3ACC18B7 /* CocoaMQTT.framework */,
+				75B299D86C39755163512FA96813B9C8 /* MSCircularSlider.framework */,
+				AE56B3C2C9AC9A5487EC4E5783B0B248 /* Pods_PyLEDClient.framework */,
+				56973685EC78045082DF77579E1E99B4 /* SCLAlertView.framework */,
+				C2FEDAE150F4877F269F639F13203887 /* SwiftyTimer.framework */,
+				433B7CA514A140072BBEB2EC55E62E04 /* Valet.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E9F9CC203EC35D4189B71F67B8A205E /* Targets Support Files */ = {
@@ -339,10 +379,20 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				D83E405234D07768B1B218CC1F034BBB /* Frameworks */,
-				FEE2A312AAAED848301A33582EEF0FE1 /* Pods */,
-				393F47F4B22A950E2067A6E67C91147A /* Products */,
+				94B514F3598AF4550B808E22BCCC2501 /* Pods */,
+				491B3FB0E36C2D52A72D560455081195 /* Products */,
 				5E9F9CC203EC35D4189B71F67B8A205E /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8A53382CF7107B64C0AFC3352A925FEC /* SwiftyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				F787488CCF0F052A5EBD07214E01F2C9 /* SwiftyTimer.swift */,
+				20B1411B7DF30E16FB9617117586C537 /* Support Files */,
+			);
+			name = SwiftyTimer;
+			path = SwiftyTimer;
 			sourceTree = "<group>";
 		};
 		8E9F03E4648D839E419E11F510AF33B0 /* Pods-PyLEDClient */ = {
@@ -363,55 +413,109 @@
 			path = "Target Support Files/Pods-PyLEDClient";
 			sourceTree = "<group>";
 		};
-		A9D11CC7124A129AA04A4E0C7094E3BD /* Support Files */ = {
+		94B514F3598AF4550B808E22BCCC2501 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				68A18411276C927749277A33F22A20C4 /* Info.plist */,
-				BAD799F9108EB78DA0D5ABE6D24E4D06 /* SCLAlertView.modulemap */,
-				E98FE631A8B3FFE3D46B521CF0EEC3A2 /* SCLAlertView.xcconfig */,
-				6A3BD5AE872281E5ACB798DB05D24DB2 /* SCLAlertView-dummy.m */,
-				3F7B8FF281D2D36728AA25930ED62E67 /* SCLAlertView-prefix.pch */,
-				831F97E0F1C00E26AF70DCEDFD9A6DE1 /* SCLAlertView-umbrella.h */,
+				B8E139F227E1DF35830BF04A0814EDA1 /* CocoaAsyncSocket */,
+				ACA23513848D988F0521F5E295B9FDA5 /* CocoaMQTT */,
+				A7AAA81E829E40E17355E50C4FC10179 /* MSCircularSlider */,
+				01F7826B6A42CA0E98218EB97904EC5F /* SCLAlertView */,
+				8A53382CF7107B64C0AFC3352A925FEC /* SwiftyTimer */,
+				BC9D3A3DCF594CD13A473EFD75BC2D71 /* Valet */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7AAA81E829E40E17355E50C4FC10179 /* MSCircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				A7C5BE025F96E9E795216B80DF1EC288 /* MSCircularSlider.swift */,
+				51F02C5A3896442088FD3EE61F726484 /* MSCircularSlider+IB.swift */,
+				FEC2F246748D569D41FD31143CF3BD3D /* MSCircularSliderHandle.swift */,
+				A67343F468578A255C32BB71BA002AC6 /* MSDoubleHandleCircularSlider.swift */,
+				6FE09D43C069FF96EB56E772F5CB2EB1 /* MSDoubleHandleCircularSlider+IB.swift */,
+				B890BFBC767A7C446FCB61ADA460BD1D /* MSGradientCircularSlider.swift */,
+				00E45AC9595E38082F0E435C7738B3E3 /* MSGradientCircularSlider+IB.swift */,
+				2E3E8363C0CBE3309A765AC62A2441B7 /* Support Files */,
+			);
+			name = MSCircularSlider;
+			path = MSCircularSlider;
+			sourceTree = "<group>";
+		};
+		A93606CD219D0D6F73423AC2E8B1ED55 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8353DBBA13DF60F4B295DA088ADFEBE9 /* Info.plist */,
+				0C260BFD9F51DD177CBC3A5609A07762 /* SCLAlertView.modulemap */,
+				108694307C15229D10E92065E645ADDB /* SCLAlertView.xcconfig */,
+				736A226E9DB2313C921F752BB9B85E96 /* SCLAlertView-dummy.m */,
+				5C9F8064FF43F6AA1D6D4CA96C8C2BD3 /* SCLAlertView-prefix.pch */,
+				9E85D979D3B13ABC33AC2120F7070250 /* SCLAlertView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SCLAlertView";
 			sourceTree = "<group>";
 		};
-		B0146D918FC7F7874C09E7A0E0E7F88F /* CocoaMQTT */ = {
+		ACA23513848D988F0521F5E295B9FDA5 /* CocoaMQTT */ = {
 			isa = PBXGroup;
 			children = (
-				19C978DBCCA493737CFE75564E8EF092 /* CocoaMQTT.h */,
-				516C377DC72C77997531C8AF763B470E /* CocoaMQTT.swift */,
-				86B45FC673C1CAAB2DBB91A75E2E317E /* CocoaMQTTFrame.swift */,
-				57922F89F794943C5BD91C8A67C413C9 /* CocoaMQTTMessage.swift */,
-				3D2D3DEE2392470B88C4BC26A17FA6F8 /* Support Files */,
+				648BEDDF4AB9C1991E97A681D01EF95C /* CocoaMQTT.h */,
+				63CCB4A505E3CAB00B594AF5D1B2A489 /* CocoaMQTT.swift */,
+				C2955DF7F8094FACB57C6D447B25BE97 /* CocoaMQTTFrame.swift */,
+				8336945DDC581AD79FB075C131526043 /* CocoaMQTTMessage.swift */,
+				DFB9BCDE02797294D69AFDFED20FB3B9 /* Support Files */,
 			);
 			name = CocoaMQTT;
 			path = CocoaMQTT;
 			sourceTree = "<group>";
 		};
-		B3C22B1742A4535957E17710BB74F07C /* CocoaAsyncSocket */ = {
+		B8E139F227E1DF35830BF04A0814EDA1 /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				062F8C986FF4883300AABBE58122C348 /* GCDAsyncSocket.h */,
-				420C76747C253ADCC13B8B887E1DF8CB /* GCDAsyncSocket.m */,
-				C7450484DBD0D89F6481D97B72AADF05 /* GCDAsyncUdpSocket.h */,
-				34720C233EC782E7BFCDC3C22CE63BC3 /* GCDAsyncUdpSocket.m */,
-				D81A8F7BD09F4FD6BB956C31704B152D /* Support Files */,
+				ADE42AEA42AF6A2156A6D89E9486DA97 /* GCDAsyncSocket.h */,
+				0AA6DEF1C1A426D92ED8F6580FD0CCCE /* GCDAsyncSocket.m */,
+				C7E4E126AEA6552068053C2E6E961790 /* GCDAsyncUdpSocket.h */,
+				8A631220B00967FDA3816187A25973A6 /* GCDAsyncUdpSocket.m */,
+				D5A1DB9041C8AA63C268ABD06E6093DD /* Support Files */,
 			);
 			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
-		D81A8F7BD09F4FD6BB956C31704B152D /* Support Files */ = {
+		BC9D3A3DCF594CD13A473EFD75BC2D71 /* Valet */ = {
 			isa = PBXGroup;
 			children = (
-				AD7EEAD3EF034FCA89304D49CADFB699 /* CocoaAsyncSocket.modulemap */,
-				22D96C280EFEC4644CA335336DBFE855 /* CocoaAsyncSocket.xcconfig */,
-				121C2894B4D04CD7BF23A678DF6FF1BA /* CocoaAsyncSocket-dummy.m */,
-				03FA6F258DFF9B151B952E5B697E1841 /* CocoaAsyncSocket-prefix.pch */,
-				8CB7E9AAB40782FC4A17C671FA35913F /* CocoaAsyncSocket-umbrella.h */,
-				BC75151061C238D1B7965AD3B100807D /* Info.plist */,
+				53C278A6491D656816C1E38E00BF251E /* Accessibility.swift */,
+				C744955C55FA342E04D712A4889A653B /* CloudAccessibility.swift */,
+				1EE5846F0AF01502576B57871050592A /* Configuration.swift */,
+				D0691D10DE3E49461A30938BD106A58E /* ErrorHandler.swift */,
+				EB6D32EA58D02686AFA4850326C87331 /* Identifier.swift */,
+				608B7ADAD030B165137C643DDB80B3E4 /* Keychain.swift */,
+				03377FBAC86381927BE95F6A40CD7D1B /* KeychainQueryConvertible.swift */,
+				E0396AFFD6987EE3B048120EBD18DD09 /* MigrationResult.swift */,
+				14D11618CD5936F8D6C5F0E9CD3F360D /* SecItem.swift */,
+				39B197B13054FEB443AC7596B6F467CC /* SecureEnclave.swift */,
+				2ED54B8AC8635EA41C791A91CEB87C2A /* SecureEnclaveAccessControl.swift */,
+				8EA10AEE10C28B3AB5E896D322F5AAB2 /* SecureEnclaveValet.swift */,
+				C5FB4189980155162245EFF4835F199D /* Service.swift */,
+				A034984FA50A11731F0478D0367899B6 /* SinglePromptSecureEnclaveValet.swift */,
+				3F0B8F231346A4EAEEFB4B3C8CFE10FB /* Valet.h */,
+				F3700A0ECD2CF67D42229916C9F322BA /* Valet.swift */,
+				2B73F152E1E40291D3AAD9A8A9B93695 /* Support Files */,
+			);
+			name = Valet;
+			path = Valet;
+			sourceTree = "<group>";
+		};
+		D5A1DB9041C8AA63C268ABD06E6093DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6251FDB6A87EB0742B1452DA5134BE39 /* CocoaAsyncSocket.modulemap */,
+				E5799B019ABE39881604E836532D9D73 /* CocoaAsyncSocket.xcconfig */,
+				E8A167A2974AA61B4EB42932DDFA0797 /* CocoaAsyncSocket-dummy.m */,
+				878ACED9D9FA8AC37FE34296F3FC51C5 /* CocoaAsyncSocket-prefix.pch */,
+				7F355A2F22CA2A2AD676D765661690A3 /* CocoaAsyncSocket-umbrella.h */,
+				94B1B48714BB386809CB92E43F82D0B4 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CocoaAsyncSocket";
@@ -427,64 +531,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EB72B8F67D929470A1DA7B5631F3F826 /* Valet */ = {
+		DFB9BCDE02797294D69AFDFED20FB3B9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				042A1FAA63A1BB4F6FAFDB03F537FD36 /* Accessibility.swift */,
-				D89A246753FA431020518D20FEA2EA7B /* CloudAccessibility.swift */,
-				B207148DD99B25A0506B3B8D05E3647D /* Configuration.swift */,
-				23FF3F8BA7E33DCD8E162F973CF84B50 /* ErrorHandler.swift */,
-				B1C69D15C3B58BE775143B26A38DD2A7 /* Identifier.swift */,
-				57A22934D36E68F144C1413CDDE43F38 /* Keychain.swift */,
-				ED80A84F786C20E83B2FE79E156B1ABD /* KeychainQueryConvertible.swift */,
-				404CF1726652D5F9CEF349F3805A16BE /* MigrationResult.swift */,
-				20059623EB2B315ADA74466E724BD1A3 /* SecItem.swift */,
-				21CECD4125E1716264B836C4C7042400 /* SecureEnclave.swift */,
-				DF0097D87BC1E019D144921220861498 /* SecureEnclaveAccessControl.swift */,
-				48FE1FB04C3CCF1B937D036E38778E34 /* SecureEnclaveValet.swift */,
-				E5925C4DDFCA1B50D43B6BD12B62101E /* Service.swift */,
-				6399905BAA6E539C9BF84048BAEFDB2E /* SinglePromptSecureEnclaveValet.swift */,
-				8218DA67782397AEA3E430EFEB914AFC /* Valet.h */,
-				137898DFCF2D127A82C90FD6DC62261C /* Valet.swift */,
-				371C0DBF3F89AD720F75DD3753FFF0F8 /* Support Files */,
+				2507D755BFCA3D5C6B8ACA9A0D08FB93 /* CocoaMQTT.modulemap */,
+				5081CB4C73FED8391F572CB0918C2B0D /* CocoaMQTT.xcconfig */,
+				3B278E94748237FD3FC97461415E3004 /* CocoaMQTT-dummy.m */,
+				26C960C368F38C17EACC292170AC36AB /* CocoaMQTT-prefix.pch */,
+				E3CF7DEB9AA27B00E5DD5041AC1403C7 /* CocoaMQTT-umbrella.h */,
+				57B2386FD18C931ACA0D4D4105842900 /* Info.plist */,
 			);
-			name = Valet;
-			path = Valet;
-			sourceTree = "<group>";
-		};
-		F295E90E31500511E542450E8FFAFB84 /* SwiftyTimer */ = {
-			isa = PBXGroup;
-			children = (
-				A44F7340B59DC890FAB4642C71F903AD /* SwiftyTimer.swift */,
-				1B40D97D204E0F3FBA97EC51C4B6EA11 /* Support Files */,
-			);
-			name = SwiftyTimer;
-			path = SwiftyTimer;
-			sourceTree = "<group>";
-		};
-		FEE2A312AAAED848301A33582EEF0FE1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B3C22B1742A4535957E17710BB74F07C /* CocoaAsyncSocket */,
-				B0146D918FC7F7874C09E7A0E0E7F88F /* CocoaMQTT */,
-				1E998BF5D6EC08CD59F62CF49AEAADA9 /* SCLAlertView */,
-				F295E90E31500511E542450E8FFAFB84 /* SwiftyTimer */,
-				EB72B8F67D929470A1DA7B5631F3F826 /* Valet */,
-			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/CocoaMQTT";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		015CD8B6EABDE020B8ADBE8E46BEB7E2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				889FCA7B4C787CF03268BB27A87A6A84 /* Pods-PyLEDClient-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		066131069354C4CC132CAB645145E8F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -503,12 +566,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		438007DAF565285DF441C1985F03DEA1 /* Headers */ = {
+		69C09A88E43C576327D2EB92983EE6AC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93470BA37B86390B8FF297263E6DD871 /* Valet-umbrella.h in Headers */,
-				C390B5B3F147927FE7F201B439DEEDFE /* Valet.h in Headers */,
+				815484BEE5EF310C931A0A27EC3416D0 /* Valet-umbrella.h in Headers */,
+				3B156FA718D2D3CD854442FC4F28E006 /* Valet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,54 +584,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94305AC96755233A97A169860DFE78A8 /* Headers */ = {
+		91212465D9212AE55C92795934A766F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BF4FEFD7DA051EF7289FC165E5CC3B8 /* SCLAlertView-umbrella.h in Headers */,
+				CC5121484CD6EFAB9660DAB70CAE1F7E /* SCLAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C542090F55BED722A70EC06DBA2E81A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E7E71142F944A3D065EE275B3BCE0F /* Pods-PyLEDClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB95FF6099A9FD1C614B42EAE848CCD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7236EB85FB414B40B5050B486E27B7E6 /* MSCircularSlider-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2E2C4A8701FC82E96B0DC627D62C3F3F /* Valet */ = {
+		9B7B1FB5A4FA6848992C4A416045AAFE /* Pods-PyLEDClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 42DEA7FD601E05D2E2BEC3489648C1BB /* Build configuration list for PBXNativeTarget "Valet" */;
+			buildConfigurationList = E7CF1E6C656125BD62D175A4963710B5 /* Build configuration list for PBXNativeTarget "Pods-PyLEDClient" */;
 			buildPhases = (
-				A33BC5EC0D9D83CF29FE1A76749F0287 /* Sources */,
-				687D28076C63AEC10039587A34EEDEA8 /* Frameworks */,
-				438007DAF565285DF441C1985F03DEA1 /* Headers */,
+				5C1D57B8C69508499419BFA391A8C1EA /* Sources */,
+				4D83D9D0FF81A84097A67190A7F6DC45 /* Frameworks */,
+				C542090F55BED722A70EC06DBA2E81A3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = Valet;
-			productName = Valet;
-			productReference = 183E9DEA139F0C202BA6DA23E59A65E4 /* Valet.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4C65F515CB1F7F3E521CEC23240178B2 /* Pods-PyLEDClient */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D71B5EDA68BA54C43F665B654A0C199A /* Build configuration list for PBXNativeTarget "Pods-PyLEDClient" */;
-			buildPhases = (
-				5A9FCD4D4558ADD2A119CB385E2E9A4C /* Sources */,
-				ACF03810EA78CBDA5620EC34DB72981E /* Frameworks */,
-				015CD8B6EABDE020B8ADBE8E46BEB7E2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A75A154D67EB21622FD2D7E9ABD5D451 /* PBXTargetDependency */,
-				1B998A02A0728C5CE1DD25DFB6354E58 /* PBXTargetDependency */,
-				CE5DE1DDB4115787F77EF0F441C3CCF7 /* PBXTargetDependency */,
-				12DEB81DC087958FFC8A2A0DAFF2DBE0 /* PBXTargetDependency */,
-				73C593E906AD3EBD6C49ED6295C56A32 /* PBXTargetDependency */,
+				46E6AB4862AF8AE63FB03D2FC81D1C87 /* PBXTargetDependency */,
+				7CC2D0FB0269CDC84EF20062E1CD93FE /* PBXTargetDependency */,
+				76F7D3DFAD4D16DD199E0330A325D36E /* PBXTargetDependency */,
+				1D82AF052A31D587CA0B41905766AF7C /* PBXTargetDependency */,
+				1A0F0B26A346C9972EF6149FF95126FD /* PBXTargetDependency */,
+				B4D25B738F5B8F45ED1CC9DF086AC074 /* PBXTargetDependency */,
 			);
 			name = "Pods-PyLEDClient";
 			productName = "Pods-PyLEDClient";
-			productReference = D443F034CFD22CD381D8F3C57F194170 /* Pods_PyLEDClient.framework */;
+			productReference = AE56B3C2C9AC9A5487EC4E5783B0B248 /* Pods_PyLEDClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E1E6122D4D31F0ABA739583B6D1F4F7 /* SCLAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C2A7E7AD5FD0113661ACFD4B2D8220 /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
+			buildPhases = (
+				61002589A7F080C4766069D7C7C2E93F /* Sources */,
+				1D8105959BD6E85B2E140706E1542BD5 /* Frameworks */,
+				91212465D9212AE55C92795934A766F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCLAlertView;
+			productName = SCLAlertView;
+			productReference = 56973685EC78045082DF77579E1E99B4 /* SCLAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */ = {
@@ -585,24 +665,7 @@
 			);
 			name = CocoaAsyncSocket;
 			productName = CocoaAsyncSocket;
-			productReference = CE75D813F30E501504DCB7DD97DDBB5B /* CocoaAsyncSocket.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C09A80A50DDA0F5D03C563E9713D06B5 /* SCLAlertView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7EA31940989E7833F4000BDF2E483C0D /* Build configuration list for PBXNativeTarget "SCLAlertView" */;
-			buildPhases = (
-				6C6D074AF00B8E067576C28B037F4007 /* Sources */,
-				D8BAEDA827DBA486181A77CF750937C5 /* Frameworks */,
-				94305AC96755233A97A169860DFE78A8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SCLAlertView;
-			productName = SCLAlertView;
-			productReference = 274238BFCF1EA1DFC6DCDBCBBA6BF80C /* SCLAlertView.framework */;
+			productReference = 73B4E633469C2060187F06FD83971100 /* CocoaAsyncSocket.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DD756C696AE4837726B4CBFA1D299F2D /* SwiftyTimer */ = {
@@ -619,7 +682,7 @@
 			);
 			name = SwiftyTimer;
 			productName = SwiftyTimer;
-			productReference = E38C27D3E971EED75B68396BBF0A9ECD /* SwiftyTimer.framework */;
+			productReference = C2FEDAE150F4877F269F639F13203887 /* SwiftyTimer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E720309E6F5A1C69F6C3B3230A0C7B1D /* CocoaMQTT */ = {
@@ -638,7 +701,41 @@
 			);
 			name = CocoaMQTT;
 			productName = CocoaMQTT;
-			productReference = 8D237629882E887F59AD1B1690EE0F37 /* CocoaMQTT.framework */;
+			productReference = 29E002A4888DA93C101FFECC3ACC18B7 /* CocoaMQTT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F92DB2A9C791B7C1A3A693C123747AF2 /* MSCircularSlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415E8316E803DE942353138B08668F68 /* Build configuration list for PBXNativeTarget "MSCircularSlider" */;
+			buildPhases = (
+				01E7480129201CE9B17FF511730BE3D9 /* Sources */,
+				A48D354E5DC8D7DA07E067825A11611B /* Frameworks */,
+				CB95FF6099A9FD1C614B42EAE848CCD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSCircularSlider;
+			productName = MSCircularSlider;
+			productReference = 75B299D86C39755163512FA96813B9C8 /* MSCircularSlider.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FAAA87C259B24C54C17FFD6EA655954C /* Valet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0147870B1246B06EBEA7E0316C47E87 /* Build configuration list for PBXNativeTarget "Valet" */;
+			buildPhases = (
+				34F4E36484857091C696F8991E2945B1 /* Sources */,
+				B0C71F3B3D7048D04A480EE9B44BCC38 /* Frameworks */,
+				69C09A88E43C576327D2EB92983EE6AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Valet;
+			productName = Valet;
+			productReference = 433B7CA514A140072BBEB2EC55E62E04 /* Valet.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -658,21 +755,37 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 393F47F4B22A950E2067A6E67C91147A /* Products */;
+			productRefGroup = 491B3FB0E36C2D52A72D560455081195 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */,
 				E720309E6F5A1C69F6C3B3230A0C7B1D /* CocoaMQTT */,
-				4C65F515CB1F7F3E521CEC23240178B2 /* Pods-PyLEDClient */,
-				C09A80A50DDA0F5D03C563E9713D06B5 /* SCLAlertView */,
+				F92DB2A9C791B7C1A3A693C123747AF2 /* MSCircularSlider */,
+				9B7B1FB5A4FA6848992C4A416045AAFE /* Pods-PyLEDClient */,
+				9E1E6122D4D31F0ABA739583B6D1F4F7 /* SCLAlertView */,
 				DD756C696AE4837726B4CBFA1D299F2D /* SwiftyTimer */,
-				2E2C4A8701FC82E96B0DC627D62C3F3F /* Valet */,
+				FAAA87C259B24C54C17FFD6EA655954C /* Valet */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		01E7480129201CE9B17FF511730BE3D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312997C965D2FC281EBA989CB4D61527 /* MSCircularSlider+IB.swift in Sources */,
+				F643CDB2B4FF23B96FAD43DE30BDCD82 /* MSCircularSlider-dummy.m in Sources */,
+				B49CB95DCF5FEB8FE5EB7EB8B16E323A /* MSCircularSlider.swift in Sources */,
+				FB599F65EF85291739066B834996FDA3 /* MSCircularSliderHandle.swift in Sources */,
+				06572610FAC28896EE27C4D4E1B680EF /* MSDoubleHandleCircularSlider+IB.swift in Sources */,
+				62711889A700AB7DD9CA9FF410C429A4 /* MSDoubleHandleCircularSlider.swift in Sources */,
+				DDAAC87CAA3A5A03FC84960764C5509C /* MSGradientCircularSlider+IB.swift in Sources */,
+				B4B5F5071A0B30DEE7D8F43089AC7025 /* MSGradientCircularSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04A779345F0D6F0B23002BD5478BF54B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -682,21 +795,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A9FCD4D4558ADD2A119CB385E2E9A4C /* Sources */ = {
+		34F4E36484857091C696F8991E2945B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A2FAD2A8A508202FECD419875F0DB8 /* Pods-PyLEDClient-dummy.m in Sources */,
+				8597ED449441F0924913409C971F509F /* Accessibility.swift in Sources */,
+				4C7BEA6B537AA143823E9AFE22363AAC /* CloudAccessibility.swift in Sources */,
+				1C5BE7F2C9BC5D4B64D7FB0A38C1A5B5 /* Configuration.swift in Sources */,
+				088D181516BAF9C9B74BA596DE7591EA /* ErrorHandler.swift in Sources */,
+				F5713969E6CB04743BE59A1440CF4D46 /* Identifier.swift in Sources */,
+				426B761CD62B621F117A12BEC9B626FF /* Keychain.swift in Sources */,
+				8605EC9700A0A7F5BD11C4937365D94B /* KeychainQueryConvertible.swift in Sources */,
+				7346E0D6721FA5BBB81D0ED345EADFD1 /* MigrationResult.swift in Sources */,
+				712F62908C2FC23FB17D7AAFC7523630 /* SecItem.swift in Sources */,
+				3BDA4D0D9C3993185B2E279C08411BEF /* SecureEnclave.swift in Sources */,
+				2C01D2DCEE55C48ECFBD36E6515969F8 /* SecureEnclaveAccessControl.swift in Sources */,
+				EF262118F0ABB30408F514EDEA959E08 /* SecureEnclaveValet.swift in Sources */,
+				0498DC41A4243E5018A07DDA4C585730 /* Service.swift in Sources */,
+				4D3036A9DBABBF121D4A39FBB92B31CC /* SinglePromptSecureEnclaveValet.swift in Sources */,
+				092370FDBE8F29803FD9568D39887231 /* Valet-dummy.m in Sources */,
+				18FCE1201C0F046B375B209F567ABE24 /* Valet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C6D074AF00B8E067576C28B037F4007 /* Sources */ = {
+		5C1D57B8C69508499419BFA391A8C1EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				150A44A636DD0C84776DA5BA42C96520 /* SCLAlertView-dummy.m in Sources */,
-				428AEB3CED57F10D7D426DB7F82323B5 /* SCLAlertView.swift in Sources */,
-				F99A6526533F7D5126B5074ED7E38BB2 /* SCLExtensions.swift in Sources */,
+				E445878104097E8E1A0D63ACDDD1678D /* Pods-PyLEDClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61002589A7F080C4766069D7C7C2E93F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A68989383DEDD23C9B245DAC35A3FB /* SCLAlertView-dummy.m in Sources */,
+				0F3D62FD4309CBE08EC0E80D4B450419 /* SCLAlertView.swift in Sources */,
+				AD60D77F008EF86F9D059208ADF1B999 /* SCLExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,29 +844,6 @@
 				943BF07A10E71980CAC8DE757D03B2F4 /* CocoaMQTT.swift in Sources */,
 				3F104C185043C731D38BD3838470B489 /* CocoaMQTTFrame.swift in Sources */,
 				2991D1E6D4AF8123D6772795D1416A01 /* CocoaMQTTMessage.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A33BC5EC0D9D83CF29FE1A76749F0287 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				802422B0CF202064F3B49FE1DC2C1336 /* Accessibility.swift in Sources */,
-				A52241A2A60F096B5CC3900B69325D2A /* CloudAccessibility.swift in Sources */,
-				A819165E5D40ADD8C2B5C515C97DD8EA /* Configuration.swift in Sources */,
-				C93C07F90AA16968FBC09C6AE25DF3EB /* ErrorHandler.swift in Sources */,
-				835B88D8B0FD1951227A09C5332CEB81 /* Identifier.swift in Sources */,
-				F243E1D9E515A365D6FAFCCEDFE9CBCE /* Keychain.swift in Sources */,
-				162F5E537598CAB2FD9C4475399A1184 /* KeychainQueryConvertible.swift in Sources */,
-				8E7AA2AF60E7650A1463F446CFA12175 /* MigrationResult.swift in Sources */,
-				1608130EC3E183D6E76A847B3FDD78E6 /* SecItem.swift in Sources */,
-				A3D7EFF4C10FA180553789175166D805 /* SecureEnclave.swift in Sources */,
-				9E0FC2FFD9B7B74E2D50334B0C140159 /* SecureEnclaveAccessControl.swift in Sources */,
-				F607A84EEC32EA6B001A6D18E056D247 /* SecureEnclaveValet.swift in Sources */,
-				0F41A8360C6CAD07CEFC5C36401AB049 /* Service.swift in Sources */,
-				6A9B3CD8E30925C4E392FC1B3E026498 /* SinglePromptSecureEnclaveValet.swift in Sources */,
-				5EEEC7EE28D10758B60DF7B4585E3090 /* Valet-dummy.m in Sources */,
-				4EC3A800A1D7D8F836278A393EA6E0E1 /* Valet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,23 +866,35 @@
 			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
 			targetProxy = 8A6F2ED52F8549A40BAE2D7A2EFE07F5 /* PBXContainerItemProxy */;
 		};
-		12DEB81DC087958FFC8A2A0DAFF2DBE0 /* PBXTargetDependency */ = {
+		1A0F0B26A346C9972EF6149FF95126FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyTimer;
 			target = DD756C696AE4837726B4CBFA1D299F2D /* SwiftyTimer */;
-			targetProxy = E166A7F8A3A3A9E28B77F69F4CE9E563 /* PBXContainerItemProxy */;
+			targetProxy = 56A245EAC1A44DEE430EB2782C5385C2 /* PBXContainerItemProxy */;
 		};
-		1B998A02A0728C5CE1DD25DFB6354E58 /* PBXTargetDependency */ = {
+		1D82AF052A31D587CA0B41905766AF7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SCLAlertView;
+			target = 9E1E6122D4D31F0ABA739583B6D1F4F7 /* SCLAlertView */;
+			targetProxy = 6E2D651D79E26B7CE952751281B8632A /* PBXContainerItemProxy */;
+		};
+		46E6AB4862AF8AE63FB03D2FC81D1C87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
+			targetProxy = ABA1317B5619D240787EE63CC152BF88 /* PBXContainerItemProxy */;
+		};
+		76F7D3DFAD4D16DD199E0330A325D36E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MSCircularSlider;
+			target = F92DB2A9C791B7C1A3A693C123747AF2 /* MSCircularSlider */;
+			targetProxy = 97DA1D6F1C3DC4AB75F5DA896416E9D0 /* PBXContainerItemProxy */;
+		};
+		7CC2D0FB0269CDC84EF20062E1CD93FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaMQTT;
 			target = E720309E6F5A1C69F6C3B3230A0C7B1D /* CocoaMQTT */;
-			targetProxy = 2D351FDE0D96A5F1FEB95BB1E4858A3B /* PBXContainerItemProxy */;
-		};
-		73C593E906AD3EBD6C49ED6295C56A32 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Valet;
-			target = 2E2C4A8701FC82E96B0DC627D62C3F3F /* Valet */;
-			targetProxy = 8262AF3433E6DD44D1900110C70CF88D /* PBXContainerItemProxy */;
+			targetProxy = 01A08CA08AEA545D3B01997ABB8E479A /* PBXContainerItemProxy */;
 		};
 		94C59CFC4E19C56DFB57001A96F872D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -777,21 +902,52 @@
 			target = DD756C696AE4837726B4CBFA1D299F2D /* SwiftyTimer */;
 			targetProxy = 65396324C5F570704BFA2161AD13D20C /* PBXContainerItemProxy */;
 		};
-		A75A154D67EB21622FD2D7E9ABD5D451 /* PBXTargetDependency */ = {
+		B4D25B738F5B8F45ED1CC9DF086AC074 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = AC0D2D2B4EE7C873431AB3502859CA60 /* CocoaAsyncSocket */;
-			targetProxy = E166B0686201856BADB23F8FD1FDC72D /* PBXContainerItemProxy */;
-		};
-		CE5DE1DDB4115787F77EF0F441C3CCF7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SCLAlertView;
-			target = C09A80A50DDA0F5D03C563E9713D06B5 /* SCLAlertView */;
-			targetProxy = 43036E40A538EB0FEEB676191C7606CC /* PBXContainerItemProxy */;
+			name = Valet;
+			target = FAAA87C259B24C54C17FFD6EA655954C /* Valet */;
+			targetProxy = 3AACB6BA6F3C1B995EFAF69827B54050 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0037F57BB2199DD7CC1D285E3A721381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108694307C15229D10E92065E645ADDB /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				PRODUCT_MODULE_NAME = SCLAlertView;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -850,193 +1006,7 @@
 			};
 			name = Release;
 		};
-		16005781C5ABAE563114CA785FCC0D92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F5B427CA5C0461AFA6F531A489C45BF /* CocoaMQTT.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaMQTT/CocoaMQTT-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaMQTT/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CocoaMQTT/CocoaMQTT.modulemap";
-				PRODUCT_MODULE_NAME = CocoaMQTT;
-				PRODUCT_NAME = CocoaMQTT;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1806BE25CCBAEC71F0011B939477BB17 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E98FE631A8B3FFE3D46B521CF0EEC3A2 /* SCLAlertView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
-				PRODUCT_MODULE_NAME = SCLAlertView;
-				PRODUCT_NAME = SCLAlertView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1F0E69DD61897C73ABB602EAB3675BB2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75A28CB79BF03172A13833E59CE55E16 /* Pods-PyLEDClient.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PyLEDClient/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PyLEDClient/Pods-PyLEDClient.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2BB47B023E95D01314C0EA3D330E5EC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B05B82702E621C445F0AF4CEE24D2E0 /* Valet.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Valet/Valet-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Valet/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Valet/Valet.modulemap";
-				PRODUCT_MODULE_NAME = Valet;
-				PRODUCT_NAME = Valet;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		56DFF5E58CB032143D4F0F5F02F35D27 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85CE0B74135636A2FC61B3E3E6A415AF /* SwiftyTimer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyTimer;
-				PRODUCT_NAME = SwiftyTimer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6122110EE3D9F89C6DC9E0E5C5F5969B /* Debug */ = {
+		15EC40781BA35F9DB6E37F41C809FABE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AB7066ED68C3B19E9BFD22DFBCC94325 /* Pods-PyLEDClient.debug.xcconfig */;
 			buildSettings = {
@@ -1076,9 +1046,194 @@
 			};
 			name = Debug;
 		};
+		16005781C5ABAE563114CA785FCC0D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5081CB4C73FED8391F572CB0918C2B0D /* CocoaMQTT.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaMQTT/CocoaMQTT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaMQTT/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaMQTT/CocoaMQTT.modulemap";
+				PRODUCT_MODULE_NAME = CocoaMQTT;
+				PRODUCT_NAME = CocoaMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26B55E05F6FD5BDC5107D6BB5AE5BE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E522756A4A8255D70500E36CAED91D /* Valet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Valet/Valet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Valet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Valet/Valet.modulemap";
+				PRODUCT_MODULE_NAME = Valet;
+				PRODUCT_NAME = Valet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55F92D1D05C7600F84675E74904F7F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108694307C15229D10E92065E645ADDB /* SCLAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
+				PRODUCT_MODULE_NAME = SCLAlertView;
+				PRODUCT_NAME = SCLAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56DFF5E58CB032143D4F0F5F02F35D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112E802599F454885A89009413970693 /* SwiftyTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyTimer;
+				PRODUCT_NAME = SwiftyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68A2D40BBBA8D24B176275744E418543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A28CB79BF03172A13833E59CE55E16 /* Pods-PyLEDClient.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PyLEDClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PyLEDClient/Pods-PyLEDClient.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		7617C675E680645FE9100D6ED19664E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22D96C280EFEC4644CA335336DBFE855 /* CocoaAsyncSocket.xcconfig */;
+			baseConfigurationReference = E5799B019ABE39881604E836532D9D73 /* CocoaAsyncSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1111,9 +1266,9 @@
 			};
 			name = Debug;
 		};
-		78020B37904A3A50AE5F297A84F652A7 /* Debug */ = {
+		8E46D1A50E089A2C9F548C82224B424B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B05B82702E621C445F0AF4CEE24D2E0 /* Valet.xcconfig */;
+			baseConfigurationReference = 85E522756A4A8255D70500E36CAED91D /* Valet.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1136,6 +1291,43 @@
 				MODULEMAP_FILE = "Target Support Files/Valet/Valet.modulemap";
 				PRODUCT_MODULE_NAME = Valet;
 				PRODUCT_NAME = Valet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		987B0DD7AD0C98A41B80C7B38EF834EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CDE710820F1B91DDDC3B7A12BA84DB /* MSCircularSlider.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MSCircularSlider/MSCircularSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSCircularSlider/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MSCircularSlider/MSCircularSlider.modulemap";
+				PRODUCT_MODULE_NAME = MSCircularSlider;
+				PRODUCT_NAME = MSCircularSlider;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1210,9 +1402,9 @@
 			};
 			name = Debug;
 		};
-		BAFCBCF376746CA9252C73618AC4F88F /* Release */ = {
+		BF9992739D332D02D7625A46A97974FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E98FE631A8B3FFE3D46B521CF0EEC3A2 /* SCLAlertView.xcconfig */;
+			baseConfigurationReference = 87CDE710820F1B91DDDC3B7A12BA84DB /* MSCircularSlider.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1223,18 +1415,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SCLAlertView/SCLAlertView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SCLAlertView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MSCircularSlider/MSCircularSlider-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MSCircularSlider/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SCLAlertView/SCLAlertView.modulemap";
-				PRODUCT_MODULE_NAME = SCLAlertView;
-				PRODUCT_NAME = SCLAlertView;
+				MODULEMAP_FILE = "Target Support Files/MSCircularSlider/MSCircularSlider.modulemap";
+				PRODUCT_MODULE_NAME = MSCircularSlider;
+				PRODUCT_NAME = MSCircularSlider;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1249,7 +1441,7 @@
 		};
 		D57E89EB0CA827E7478AFBF930E34C14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F5B427CA5C0461AFA6F531A489C45BF /* CocoaMQTT.xcconfig */;
+			baseConfigurationReference = 5081CB4C73FED8391F572CB0918C2B0D /* CocoaMQTT.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1285,7 +1477,7 @@
 		};
 		EDBB8A444E15ACA7CBC1A3BA244B3FFA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22D96C280EFEC4644CA335336DBFE855 /* CocoaAsyncSocket.xcconfig */;
+			baseConfigurationReference = E5799B019ABE39881604E836532D9D73 /* CocoaAsyncSocket.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1321,7 +1513,7 @@
 		};
 		F2882F25D4DF6BE5C4910844B4E3E206 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85CE0B74135636A2FC61B3E3E6A415AF /* SwiftyTimer.xcconfig */;
+			baseConfigurationReference = 112E802599F454885A89009413970693 /* SwiftyTimer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1368,20 +1560,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42DEA7FD601E05D2E2BEC3489648C1BB /* Build configuration list for PBXNativeTarget "Valet" */ = {
+		415E8316E803DE942353138B08668F68 /* Build configuration list for PBXNativeTarget "MSCircularSlider" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78020B37904A3A50AE5F297A84F652A7 /* Debug */,
-				2BB47B023E95D01314C0EA3D330E5EC0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7EA31940989E7833F4000BDF2E483C0D /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1806BE25CCBAEC71F0011B939477BB17 /* Debug */,
-				BAFCBCF376746CA9252C73618AC4F88F /* Release */,
+				987B0DD7AD0C98A41B80C7B38EF834EA /* Debug */,
+				BF9992739D332D02D7625A46A97974FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1404,11 +1587,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D71B5EDA68BA54C43F665B654A0C199A /* Build configuration list for PBXNativeTarget "Pods-PyLEDClient" */ = {
+		E7CF1E6C656125BD62D175A4963710B5 /* Build configuration list for PBXNativeTarget "Pods-PyLEDClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6122110EE3D9F89C6DC9E0E5C5F5969B /* Debug */,
-				1F0E69DD61897C73ABB602EAB3675BB2 /* Release */,
+				15EC40781BA35F9DB6E37F41C809FABE /* Debug */,
+				68A2D40BBBA8D24B176275744E418543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0147870B1246B06EBEA7E0316C47E87 /* Build configuration list for PBXNativeTarget "Valet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B55E05F6FD5BDC5107D6BB5AE5BE62 /* Debug */,
+				8E46D1A50E089A2C9F548C82224B424B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1418,6 +1610,15 @@
 			buildConfigurations = (
 				7617C675E680645FE9100D6ED19664E7 /* Debug */,
 				EDBB8A444E15ACA7CBC1A3BA244B3FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C2A7E7AD5FD0113661ACFD4B2D8220 /* Build configuration list for PBXNativeTarget "SCLAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55F92D1D05C7600F84675E74904F7F33 /* Debug */,
+				0037F57BB2199DD7CC1D285E3A721381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

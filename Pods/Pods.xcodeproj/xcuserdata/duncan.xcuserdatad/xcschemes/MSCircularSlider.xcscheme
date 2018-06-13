@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FAAA87C259B24C54C17FFD6EA655954C"
-               BlueprintName = "Valet"
+               BlueprintIdentifier = "F92DB2A9C791B7C1A3A693C123747AF2"
+               BlueprintName = "MSCircularSlider"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Valet.framework">
+               BuildableName = "MSCircularSlider.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -9,5 +9,5 @@ target 'PyLEDClient' do
   pod 'CocoaMQTT'
   pod 'Valet'
   pod 'SCLAlertView'
-
+  pod 'MSCircularSlider'
 end
